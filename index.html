@@ -1,0 +1,1065 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f7e8ed">
+<title>ROLITAS Creative Studio | Catálogo y pedidos</title>
+<meta name="description" content="Flores eternas, pocillos, camisetas, gorras y detalles personalizados con sublimación. Cotiza en el catálogo y haz tu pedido por WhatsApp.">
+<meta name="robots" content="index,follow">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ROLITAS Creative Studio | Catálogo y pedidos">
+<meta property="og:description" content="Flores eternas y detalles personalizados. Cotiza y haz tu pedido por WhatsApp.">
+<style>
+:root{--rose:#b77991;--rose2:#f5dfe7;--rose3:#fff5f8;--ink:#684653;--muted:#987d87;--line:#eedce3;--white:#fff;--green:#658c72;--shadow:0 12px 35px #8e5b7012}
+*{box-sizing:border-box}body{margin:0;background:linear-gradient(135deg,#fff9fb,#fbf2f5 55%,#fff7f8);font-family:system-ui,-apple-system,Segoe UI,sans-serif;color:var(--ink)}
+header{padding:30px 16px 24px;text-align:center;background:linear-gradient(120deg,#f8e4eb,#f4e8ed,#fff4f6);border-bottom:1px solid var(--line)}
+.brand{font:clamp(34px,7vw,48px) Georgia,serif;letter-spacing:5px;color:#9b6279;margin:0}.tag{font-size:10px;letter-spacing:2.5px;color:var(--muted);margin:7px 0 15px}h1{font:23px Georgia,serif;margin:0;color:#805666}.intro{font-size:13px;color:var(--muted);margin:8px 0 0}
+nav{display:flex;justify-content:center;gap:8px;padding:12px;position:sticky;top:0;background:#fffdfb;border-bottom:1px solid var(--line);z-index:4;flex-wrap:wrap}
+button,.button{border:0;border-radius:12px;padding:11px 15px;font-weight:700;cursor:pointer;font-size:13px}button:disabled{opacity:.5;cursor:not-allowed}.primary{background:var(--rose);color:white}.soft{background:var(--rose2);color:#805666}.plain{background:#fff;border:1px solid var(--line);color:var(--ink)}.danger{background:#fae8ec;color:#9b4e65}
+main{max-width:1120px;margin:22px auto;padding:0 14px 48px}.view{display:none}.view.active{display:block}
+.layout{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(280px,.8fr);gap:16px}.panel,.summary,.hero,.admin-card{background:#ffffffdf;border:1px solid var(--line);border-radius:20px;padding:18px;box-shadow:var(--shadow);margin-bottom:15px}
+h2{font:20px Georgia,serif;color:#895d70;margin:0 0 6px}.hint{font-size:12px;color:var(--muted);margin:0 0 14px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.product{border:1px solid var(--line);border-radius:16px;padding:13px;background:linear-gradient(150deg,#fff,#fff8fa);display:flex;flex-direction:column;gap:8px}.product-head{display:flex;align-items:center;gap:9px}.emoji{width:42px;height:42px;border-radius:13px;background:#faedf1;display:grid;place-items:center;font-size:24px}.pname{font-size:13px;font-weight:700;flex:1}.price{font-size:12px;color:#a05f7c;font-weight:700}.stepper{display:flex;align-items:center;justify-content:flex-end;gap:10px}.stepper button{width:30px;height:30px;padding:0;background:#f5e5eb;color:#805666;font-size:18px}.qty{font-weight:800;min-width:18px;text-align:center}
+label{display:block;font-size:12px;font-weight:700;margin:11px 0 6px}input,textarea,select{width:100%;padding:11px;border:1px solid var(--line);border-radius:11px;background:#fff;color:var(--ink);font:inherit;font-size:13px;outline-color:#d6a9ba}textarea{resize:vertical}.summary{position:sticky;top:78px;height:max-content}.line{display:flex;justify-content:space-between;gap:12px;font-size:13px;margin:9px 0}.totalbox{background:linear-gradient(130deg,#fbeaf0,#fff5f7);border-radius:15px;padding:14px;margin-top:12px}.grand{border-top:1px solid #e8cdd8;padding-top:11px;font-weight:800}.grand strong{font-size:22px;color:#a45f7c}.itemline{font-size:12px;display:flex;justify-content:space-between;gap:8px;margin:7px 0}.actions{display:grid;gap:8px;margin-top:13px}.notice{background:#fff1f5;border:1px solid #f0d7e0;border-radius:12px;padding:10px;font-size:12px;color:#895d70;margin:10px 0}.muted{color:var(--muted);font-size:11px}.hero{text-align:center;padding:26px}.hero-mark{font-size:38px}.tiles{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:18px}.tile{padding:18px;border:1px solid var(--line);border-radius:16px;background:#fff8fa;text-align:center}.category-tile{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;color:var(--ink);min-height:165px;cursor:pointer;transition:transform .15s,box-shadow .15s}.category-tile:active{transform:scale(.98)}.category-cta{display:inline-block;margin-top:5px;padding:8px 13px;border-radius:999px;background:var(--rose);color:#fff;font-size:12px;font-weight:800}.tile b{display:block;margin:6px}.toolbar{display:flex;gap:8px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:14px}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:14px}.stat{background:#fff;border:1px solid var(--line);border-radius:15px;padding:13px}.stat span{font-size:11px;color:var(--muted)}.stat strong{display:block;font-size:21px;color:#a45f7c;margin-top:4px}.order{border:1px solid var(--line);border-radius:16px;padding:14px;margin:10px 0;background:#fff}.order-top{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}.order h3{font-size:14px;margin:0 0 5px}.order p{font-size:12px;margin:5px 0;color:var(--muted)}.order-controls{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-top:12px}.pill{display:inline-block;border-radius:999px;background:#f8e9ef;color:#945f77;padding:5px 9px;font-size:10px;font-weight:800}.empty{text-align:center;padding:28px;color:var(--muted);font-size:13px}.footer{text-align:center;font-size:11px;color:#a88f98;margin:20px 0}
+@media(max-width:760px){.layout{grid-template-columns:1fr}.summary{position:static}.stats{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:430px){.grid,.tiles{grid-template-columns:1fr}.order-controls{grid-template-columns:1fr}.brand{letter-spacing:3px}}
+.gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.gitem{margin:0;border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#fff}.gitem img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block}.gitem figcaption{font-size:12px;padding:8px 10px}.gitem{content-visibility:auto;contain-intrinsic-size:auto 260px}.filters{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin:0 0 14px}
+.pimg{width:46px;height:46px;border-radius:12px;object-fit:cover;flex:none;cursor:zoom-in}
+@media(max-width:560px){.gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}
+</style>
+</head>
+<body>
+<header><p class="brand">ROLITAS</p><p class="tag">CREATIVE STUDIO · CREATIVIDAD EN CADA DETALLE</p><h1>Tu idea, hecha realidad ✨</h1><p class="intro">Catálogo y pedidos · Detalles personalizados, creados con amor.</p></header>
+<nav>
+<button class="primary" id="galleryTab">Galería 🌸</button>
+<button class="plain" id="shopTab">Hacer pedido 🛍️</button>
+<button class="plain" id="adminTab" style="display:none" tabindex="-1" aria-hidden="true">Acceso privado</button>
+<select id="langSel" aria-label="Idioma / Language" style="padding:8px 10px;border-radius:999px;border:1px solid var(--line);background:#fff;font:inherit"><option value="es">Español</option><option value="en">English</option><option value="pt">Português</option></select>
+</nav>
+<main>
+<section class="view active" id="galleryView">
+ <div class="hero"><div class="hero-mark">🌸</div><h2>Nuestros trabajos</h2><p class="hint">Flores eternas y detalles personalizados que hemos creado.</p><button class="primary" type="button" id="goOrder">Hacer mi pedido →</button></div>
+ <div class="filters" id="galleryFilters"></div>
+ <div class="gallery" id="galleryGrid"><div class="empty" style="grid-column:1/-1">Cargando...</div></div>
+</section>
+<section class="view" id="shopView">
+ <div id="shopHome">
+  <div class="hero"><div class="hero-mark">🌸</div><h2>Bienvenida a ROLITAS</h2><p class="hint">Elige qué quieres cotizar y entra a su calculadora.</p>
+   <div class="tiles">
+    <button type="button" class="tile category-tile" data-open-section="flowers"><span style="font-size:32px">💐</span><b>ETERNAL BLOOM</b><span class="muted">Entrar a calculadora de flores</span><span class="category-cta">Abrir calculadora →</span></button>
+    <button type="button" class="tile category-tile" data-open-section="sublimation"><span style="font-size:32px">🎨</span><b>PERSONALIZACIÓN</b><span class="muted">Pocillos, camisetas, gorras, llaveros, rompecabezas y más</span><span class="category-cta">Abrir calculadora →</span></button>
+   </div>
+  </div>
+  <div class="panel"><h2>Tu carrito 🛍️</h2><p class="hint">Los productos que agregues desde cualquiera de las calculadoras aparecerán aquí.</p>
+   <div id="homeCartRows" class="muted">Aún no agregas productos.</div>
+   <div class="totalbox"><div class="line"><span>Flores y decoraciones</span><b id="homeFlowerSum">$0</b></div><div class="line"><span>Personalización</span><b id="homeSubSum">$0</b></div><div class="line" id="homeDiscountRow" hidden><span>Descuentos</span><b id="homeDiscountSum">-$0</b></div><div class="line grand"><span>Total productos</span><strong id="homeGrandTotal">$0</strong></div></div>
+   <p class="notice" id="homePaperNotice" hidden>🌸 Al llevar 5 flores o más, se incluyen mínimo 2 papeles coreanos.</p>
+   <button class="soft" id="homeClearCart" type="button" style="width:100%;margin-top:10px">Vaciar carrito</button>
+  </div>
+ </div>
+ <section id="calculatorPage" hidden>
+  <div class="toolbar"><button class="soft" id="backToCategories" type="button">← Volver a categorías</button><span class="pill" id="calculatorLabel">Calculadora</span></div>
+  <div class="layout">
+   <div>
+    <section class="panel"><h2 id="calculatorTitle">Calculadora</h2><p class="hint" id="calculatorHint"></p><div class="grid" id="calculatorProducts"></div></section>
+   </div>
+   <aside class="summary">
+    <h2>Tu pedido 🛍️</h2>
+    <div id="cartRows" class="muted">Aún no agregas productos.</div>
+    <div class="totalbox"><div class="line"><span>Flores y decoraciones</span><b id="flowerSum">$0</b></div><div class="line"><span>Personalización</span><b id="subSum">$0</b></div><div class="line" id="discountRow" hidden><span>Descuentos</span><b id="discountSum">-$0</b></div><div class="line grand"><span>Total productos</span><strong id="grandTotal">$0</strong></div></div>
+    <p class="notice" id="depositNotice" hidden></p>
+    <button class="soft" id="copyKey" type="button" style="display:none;margin:0 0 10px">Copiar llave Bre-B</button>
+    <p class="notice" id="paperNotice" hidden>🌸 Al llevar 5 flores o más, se requieren mínimo 2 papeles coreanos. Ya están incluidos en tu pedido.</p>
+    <div id="customBox"></div>
+    <h2 style="margin-top:16px">Datos para tu pedido</h2>
+    <label>Nombre completo</label><input id="customerName" placeholder="Tu nombre">
+    <label>WhatsApp / teléfono</label><input id="customerPhone" type="tel" inputmode="numeric" maxlength="10" placeholder="Ej: 3001234567">
+    <label>Dirección de entrega</label><input id="customerAddress" placeholder="Barrio, dirección y ciudad"><p class="muted" id="pickupAddressNotice"></p>
+    <label>¿Recoges o te lo enviamos?</label><select id="deliveryMethod"><option value="Domicilio">Domicilio</option><option value="Recoger">Recoger en el taller</option></select>
+    <p class="notice" id="shipNotice">🛵 El domicilio no está incluido en el total. Lo pagas aparte y su valor depende del lugar de entrega y de lo que cobre el domicilio.</p>
+    <label>¿Para cuándo lo necesitas?</label><input id="deliveryDate" type="date"><p class="muted" id="dateHint"></p>
+    <div id="cardBox" hidden><label>Mensaje para la tarjeta 💌 (obligatorio)</label><textarea id="cardMessage" rows="3" maxlength="300" placeholder="Escribe la frase o mensaje exacto que irá en la tarjeta. Si llevas varias, escribe uno por cada tarjeta."></textarea></div>
+    <label>Detalles o personalización</label><textarea id="customerNotes" rows="3" placeholder="Colores, frases, diseños, fecha especial..."></textarea>
+    <div class="actions"><button class="primary" id="placeOrder">Enviar pedido y abrir WhatsApp</button><button class="soft" id="clearCart">Vaciar carrito</button></div>
+    <p class="muted">El pedido se guardará en la tienda cuando la conexión esté configurada. WhatsApp se abrirá después de guardarlo.</p>
+   </aside>
+  </div>
+ </section>
+</section>
+
+<section class="view" id="adminView">
+ <div class="hero"><div class="hero-mark">🔐</div><h2>Panel privado de ROLITAS</h2><p class="hint">Acceso exclusivo para administración.</p></div>
+ <div class="panel" id="loginPanel" style="max-width:440px;margin:0 auto 16px">
+  <h2>Iniciar sesión</h2><p class="hint">Ingresa con la cuenta de administración autorizada.</p>
+  <label>Correo de administración</label><input id="adminEmail" type="email" autocomplete="username" autocapitalize="none" autocorrect="off" spellcheck="false" placeholder="tu correo">
+  <label>Contraseña privada</label><input id="adminPassword" type="password" autocomplete="current-password" autocapitalize="none" autocorrect="off" placeholder="Tu contraseña">
+  <button class="primary" id="loginButton" style="width:100%;margin-top:14px">Entrar al panel</button><button class="soft" id="testConn" type="button" style="width:100%;margin-top:8px">Probar conexión</button><p class="muted" id="loginMessage"></p>
+ </div>
+ <div id="dashboard" hidden>
+  <div class="toolbar"><div><h2>Gestión de pedidos</h2><p class="hint">Consulta, actualiza estados y registra pagos.</p></div><button class="soft" id="logoutButton">Cerrar sesión</button></div>
+  <details class="panel" id="workshopAddressAdmin" open>
+   <summary style="font-weight:800;cursor:pointer">📍 Dirección del taller</summary>
+   <p class="hint" style="margin-top:8px">Esta dirección se mostrará automáticamente cuando el cliente elija «Recoger en el taller». Solo la cuenta administradora autorizada puede modificarla.</p>
+   <label>Dirección completa del taller</label>
+   <input id="workshopAddressInput" maxlength="300" placeholder="Escribe aquí la dirección del taller">
+   <button class="primary" id="saveWorkshopAddress" type="button" style="width:100%;margin-top:10px">Guardar dirección</button>
+   <p class="muted" id="workshopAddressMessage"></p>
+  </details>
+  <details class="panel" id="galleryAdmin"><summary style="font-weight:800;cursor:pointer">📸 Galería: subir y editar fotos</summary>
+   <label>Fotos (puedes elegir varias)</label><input id="galFiles" type="file" accept="image/*" multiple>
+   <label>Título (opcional, se aplica a todas las que subas)</label><input id="galTitle" maxlength="80" placeholder="Ej: Ramo de girasoles">
+   <label>Categoría</label><select id="galCategory"><option>Flores</option><option value="Sublimación">Personalización</option><option>Otros</option></select>
+   <label style="display:flex;gap:8px;align-items:center;margin-top:10px"><input type="checkbox" id="galSame" style="width:auto"> Son varias fotos de un mismo ramo (la primera es la portada)</label>
+   <label>Precio en COP (opcional; si lo pones aparece "Comprar ahora")</label><input id="galPrice" type="number" min="0" placeholder="Ej: 45000">
+   <label>Días mínimos para tenerlo listo</label><input id="galDays" type="number" min="1" placeholder="Ej: 7">
+   <button class="primary" id="galUpload" type="button" style="width:100%;margin-top:12px">Subir a la galería</button><p class="muted" id="galMsg"></p><input type="file" id="galAddFiles" accept="image/*" multiple hidden>
+   <div id="galAdminList" class="gallery" style="margin-top:12px"></div>
+  </details>
+  <details class="panel" id="manualAdmin"><summary style="font-weight:800;cursor:pointer">➕ Registrar pedido manual</summary>
+   <p class="hint" style="margin-top:8px">Para pedidos que llegaron por otro medio o que quieres dejar anotados.</p>
+   <label>Nombre del cliente</label><input id="moName" placeholder="Nombre">
+   <label>Teléfono</label><input id="moPhone" type="tel" placeholder="Teléfono (opcional)">
+   <label>Dirección</label><input id="moAddress" placeholder="Dirección (opcional)">
+   <label>Productos (nombre · cantidad · precio unitario)</label>
+   <div id="moItems"></div>
+   <button class="soft" id="moAdd" type="button" style="margin-top:8px">+ Agregar producto</button>
+   <p class="muted" id="moTotal">Total productos: $0</p>
+   <div class="order-controls">
+    <div><label>Entrega</label><select id="moMethod"><option value="Domicilio">Domicilio</option><option value="Recoger">Recoger</option></select></div>
+    <div><label>Fecha de entrega</label><input id="moDelivery" type="date"></div>
+    <div><label>Fecha en que se hizo el pedido</label><input id="moDate" type="date"></div>
+   </div>
+   <div class="order-controls">
+    <div><label>Domicilio (COP)</label><input id="moShipping" type="number" min="0" value="0"></div>
+    <div><label>Abono recibido (COP)</label><input id="moDeposit" type="number" min="0" value="0"></div>
+    <div><label>Medio de pago</label><select id="moPayMethod"><option value="">Sin registrar</option><option>Transferencia</option><option>Efectivo</option><option>Otro</option></select></div>
+   </div>
+   <label>Estado del pedido</label><select id="moStatus"><option>Nuevo</option><option>Confirmado</option><option>En producción</option><option>Listo para entregar</option><option>Entregado</option><option>Cancelado</option></select>
+   <label>Notas</label><textarea id="moNotes" rows="2" placeholder="Detalles, personalización, etc."></textarea>
+   <button class="primary" id="moSave" type="button" style="width:100%;margin-top:12px">Guardar pedido</button><p class="muted" id="moMsg"></p>
+  </details>
+  <details class="panel" id="diagAdmin"><summary style="font-weight:800;cursor:pointer">🔧 Diagnóstico (pedidos y configuración)</summary>
+   <p class="hint" style="margin-top:8px">Hace un pedido de prueba como si fueras un cliente, revisa que llegue a este panel y lo borra solo. Si falla, te dice por qué.</p>
+   <button class="primary" id="diagRun" type="button" style="width:100%;margin-top:8px">Hacer prueba ahora</button><p class="muted" id="diagMsg"></p>
+   <button class="soft" id="diagAll" type="button" style="width:100%;margin-top:8px">Revisar toda la configuración</button>
+   <p class="muted" id="diagAllMsg" style="white-space:pre-wrap"></p>
+  </details>
+  <details class="panel" id="prodAdmin"><summary style="font-weight:800;cursor:pointer">🖼️ Fotos de productos (calculadora)</summary>
+   <p class="hint" style="margin-top:8px">Sube una foto para cada producto. Si no tiene foto, se muestra el emoji. Puedes cambiarla o volver al emoji cuando quieras.</p>
+   <p class="muted" id="prodMsg"></p><input type="file" id="prodFile" accept="image/*" hidden>
+   <div id="prodAdminList"></div>
+  </details>
+  <details class="panel" id="newProdAdmin"><summary style="font-weight:800;cursor:pointer">➕ Agregar productos nuevos</summary>
+   <p class="hint" style="margin-top:8px">Agrega un producto y elige en qué sección aparece en la tienda. Después puedes ponerle foto en «Fotos de productos».</p>
+   <label>Nombre del producto</label><input id="npName" maxlength="60" placeholder="Ej: Rosa azul">
+   <label>Precio (COP)</label><input id="npPrice" type="number" min="0" placeholder="Ej: 6500">
+   <label>Sección</label><select id="npSection"><option value="flowers">Flores</option><option value="decor">Decoraciones</option><option value="custom">Personalización</option></select>
+   <label>Emoji (opcional)</label><input id="npEmoji" maxlength="4" placeholder="🌹">
+   <label id="npDiscLabel" style="display:none;gap:8px;align-items:center;margin-top:10px"><input type="checkbox" id="npDisc" style="width:auto"> Cuenta para el descuento por cantidad (como pocillos y camisetas)</label>
+   <button class="primary" id="npAdd" type="button" style="width:100%;margin-top:12px">Agregar producto</button><p class="muted" id="npMsg"></p>
+   <h3 style="margin:12px 0 4px">Productos que has agregado</h3>
+   <div id="npList"></div>
+  </details>
+  <details class="panel" id="priceAdmin"><summary style="font-weight:800;cursor:pointer">💲 Ajuste de precios</summary>
+   <p class="hint" style="margin-top:8px">Sube o baja el precio de todos los productos de las calculadoras (flores, decoraciones y personalización) con un porcentaje. Se calcula sobre los precios originales: si aplicas +10% dos veces, sigue siendo +10%. Para bajar, usa un número negativo, por ejemplo -5. Los precios se redondean a los 50 pesos más cercanos.</p>
+   <label>Porcentaje (%)</label><input id="pricePct" type="number" step="0.5" placeholder="Ej: 10 o -5">
+   <p class="muted" id="pricePreview"></p>
+   <button class="primary" id="priceApply" type="button" style="width:100%;margin-top:8px">Aplicar a todos los productos</button>
+   <button class="soft" id="priceReset" type="button" style="width:100%;margin-top:8px">Volver a precios originales</button>
+   <p class="muted" id="priceMsg"></p>
+  </details>
+  <div class="stats">
+   <div class="stat"><span>Pedidos recibidos</span><strong id="statOrders">0</strong></div><div class="stat"><span>Por gestionar</span><strong id="statPending">0</strong></div><div class="stat"><span>Ventas registradas</span><strong id="statSales">$0</strong></div><div class="stat"><span>Saldo por cobrar</span><strong id="statBalance">$0</strong></div>
+  </div>
+  <div class="toolbar"><input id="orderSearch" placeholder="Buscar por nombre, teléfono o número..." style="max-width:420px"><button class="plain" id="refreshOrders">Actualizar pedidos</button></div>
+  <div id="ordersList"><div class="empty">Cargando pedidos...</div></div>
+ </div>
+</section>
+<div class="footer">ROLITAS CREATIVE STUDIO · Hecho con amor 💗</div>
+</main>
+<div id="viewModal" hidden style="position:fixed;inset:0;background:#000;z-index:60">
+ <div style="display:flex;flex-direction:column;height:100%;padding:calc(12px + env(safe-area-inset-top,0px)) 12px calc(12px + env(safe-area-inset-bottom,0px));box-sizing:border-box;color:#fff">
+  <div style="display:flex;justify-content:space-between;align-items:center"><button id="vmBack" type="button" aria-label="Volver" style="background:rgba(255,255,255,.2);color:#fff;border:0;border-radius:999px;padding:10px 16px;font-size:16px">← Volver</button><span id="vmCount"></span><button id="vmClose" type="button" aria-label="Cerrar" style="background:rgba(255,255,255,.2);color:#fff;border:0;border-radius:50%;width:44px;height:44px;font-size:18px">✕</button></div>
+  <div id="vmMain" style="flex:1;position:relative;min-height:0;display:flex;align-items:center;justify-content:center">
+   <button id="vmPrev" type="button" aria-label="Anterior" style="position:absolute;left:0;z-index:2;background:rgba(255,255,255,.25);color:#fff;border:0;border-radius:50%;width:42px;height:42px;font-size:24px">‹</button>
+   <img id="vmImg" alt="" style="max-width:100%;max-height:100%;object-fit:contain;touch-action:pan-y">
+   <button id="vmNext" type="button" aria-label="Siguiente" style="position:absolute;right:0;z-index:2;background:rgba(255,255,255,.25);color:#fff;border:0;border-radius:50%;width:42px;height:42px;font-size:24px">›</button>
+  </div>
+  <div id="vmThumbs" style="display:flex;gap:6px;overflow-x:auto;padding:8px 0"></div>
+  <div id="vmInfo" style="font-weight:700;margin-bottom:8px"></div>
+  <button class="primary" id="vmBuy" type="button" style="width:100%">Comprar ahora</button>
+ </div>
+</div>
+<div id="buyModal" hidden style="position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:50;overflow:auto;padding:16px">
+ <div style="max-width:420px;margin:0 auto;background:#fff;border-radius:20px;padding:16px">
+  <button class="plain" id="bmBack" type="button" style="position:sticky;top:0;z-index:2;margin-bottom:10px">← Volver</button>
+  <img id="bmImg" alt="" style="width:100%;border-radius:14px;aspect-ratio:1/1;object-fit:cover">
+  <h2 id="bmTitle" style="margin:12px 0 4px"></h2>
+  <p style="margin:0"><b id="bmPrice"></b> · <span id="bmDays"></span></p>
+  <label>¿Quieres cambiar algo? (color del papel coreano, etc.)</label>
+  <textarea id="bmNote" rows="3" maxlength="300" placeholder="Opcional. Ej: papel coreano en color rosado"></textarea>
+  <label>Cantidad</label><input id="bmQty" type="number" min="1" max="20" value="1">
+  <button class="primary" id="bmAdd" type="button" style="width:100%;margin-top:12px">Comprar ahora</button>
+  <button class="plain" id="bmClose" type="button" style="width:100%;margin-top:8px">Cerrar</button>
+ </div>
+</div>
+<script type="module">
+import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm";
+
+/* CONFIGURACIÓN: completa estos dos valores siguiendo INSTRUCCIONES.md */
+const SUPABASE_URL = "https://dxjwoitunpuobwdwiqhk.supabase.co";
+const SUPABASE_ANON_KEY = "sb_publishable_By7y5SWfrsa0sMxfHuRLxA_D9hq1cgo";
+const WHATSAPP_NUMBER = "573138151498";
+const LEAD = {flowersSmall:7, flowersBig:10, flowersBigFrom:15, subSmall:5, subBig:7, subBigFrom:12}; /* días mínimos de entrega; "BigFrom" = desde cuántas unidades se considera pedido grande */
+const BUCKET="pedidos-imagenes",MAX_IMG=10*1024*1024,GALLERY_BUCKET="galeria",DEBUG=location.search.includes("debug"); /* bucket de Supabase Storage y tamaño máximo por imagen */
+/* Tiempo mínimo de entrega según la cantidad: [hasta cuántas unidades, días]. Edita los números aquí. */
+const LEAD_TIERS = {
+ flowers:[[1,1],[5,2],[9,4],[20,7],[40,13],[50,17],[Infinity,20]],
+ custom:[[3,1],[5,2],[9,3],[20,5],[40,7],[Infinity,9]]
+};
+const tierDays=(tiers,q)=>q>0?(tiers.find(t=>q<=t[0])||tiers[tiers.length-1])[1]:0;
+const dayStr=n=>n+(n===1?" día":" días");
+const DEPOSIT_PERCENT = 50;
+const BREB_KEY = "@RDL932"; /* llave Bre-B para recibir el abono */ /* % de abono que pides para iniciar; cámbialo si usas otro */
+const configured = SUPABASE_URL.startsWith("https://") && !SUPABASE_URL.includes("PEGA_AQUI") && !SUPABASE_ANON_KEY.includes("PEGA_AQUI");
+const db = configured ? createClient(SUPABASE_URL,SUPABASE_ANON_KEY) : null;
+const ADMIN_EMAIL = "karol202343@gmail.com";
+let workshopAddress = "";
+async function loadWorkshopAddress(){
+ if(!db)return "";
+ const {data,error}=await db.from("store_settings").select("workshop_address").eq("id",true).maybeSingle();
+ if(error){console.warn("No se pudo consultar la dirección del taller:",error.message);return workshopAddress}
+ workshopAddress=String(data?.workshop_address||"").trim();
+ return workshopAddress;
+}
+async function syncDeliveryAddress(showWarning=false){
+ const method=document.getElementById("deliveryMethod"),address=document.getElementById("customerAddress"),notice=document.getElementById("pickupAddressNotice");
+ if(!method||!address)return;
+ if(method.value==="Recoger"){
+  address.readOnly=true;
+  address.placeholder="Dirección del taller";
+  const saved=await loadWorkshopAddress();
+  address.value=saved;
+  notice.textContent=saved?"📍 Recogerás tu pedido en la dirección del taller.":"El taller aún no ha configurado su dirección. No es posible seleccionar recogida por ahora.";
+  if(!saved&&showWarning)alert("El taller aún no ha configurado su dirección. Comunícate con la tienda para coordinar la recogida.");
+ }else{
+  if(address.readOnly)address.value="";
+  address.readOnly=false;
+  address.placeholder="Barrio, dirección y ciudad";
+  notice.textContent="";
+ }
+}
+function validColombianMobile(value){
+ const phone=String(value||"").replace(/\D/g,"");
+ return /^(300|301|302|303|304|305|310|311|312|313|314|315|316|317|318|319|320|321|322|323|324|333|350|351|352)\d{7}$/.test(phone);
+}
+const flowerProducts=[
+ ["Hojas",2200,"🌿"],["Tulipán abierto",5500,"🌷"],["Tulipán cerrado",6600,"🌷"],["Azalea",5000,"💮"],["Lirio",5500,"🌸"],["Lirio 6 pétalos",6000,"🌺"],["Personajes Tulipán",7700,"🧸"],["Margarita",4000,"🌼"],["Girasol pequeño",4400,"🌻"],["Girasol mini",3300,"🌻"],["Lavanda",2750,"💜"],["Gerbera",4400,"🏵"],["Hortencias",2200,"🪻"],["Girasol XXL",24500,"🌻"],["Lirio Araña",4400,"🌺"],["Amapola",5500,"🌸"],["Hibisco",6000,"🌺"],["Rosa mini",3500,"🌹"],["Rosa ",6000,"🌹️"], ["Flor de Loto grande",15000,"🪷"]
+].map(([name,price,emoji])=>({name,price,emoji,category:"flower"}));
+const decorProducts=[["Mariposas",500,"🦋"],["Tarjeta",1500,"💌"],["Corona",6000,"👑"],["moño",1500,"🎀"],["Papel Koreano",1500,"💗"]].map(([name,price,emoji])=>({name,price,emoji,category:"decoration"}));
+const subProducts=[
+ {name:"Pocillo blanco",price:18000,emoji:"☕",kind:"mug"},{name:"Pocillo negro escarchado",price:33000,emoji:"✨",kind:"mug"},{name:"Pocillo mágico",price:33000,emoji:"🌈",kind:"mug"},{name:"Pocillo de colores",price:23000,emoji:"🎨",kind:"mug"},{name:"Pocillo transparente",price:38000,emoji:"🥛",kind:"mug"},{name:"Camiseta estampada (cliente trae la camisa)",price:10000,emoji:"👕",kind:"shirt"},{name:"Llaveros pequeños (2 imágenes)",price:15000,emoji:"🔑",kind:"other"},{name:"Rompecabezas",price:33000,emoji:"🧩",kind:"other"},{name:"Gorra estampada (cliente trae la gorra)",price:8000,emoji:"🧢",kind:"shirt"}
+].map(p=>({...p,category:"sublimation"}));
+const allProducts=[...flowerProducts,...decorProducts,...subProducts];
+const cart={},custom={},galleryCartProducts=[];
+const money=n=>"$"+Math.round(Number(n)||0).toLocaleString("es-CO");
+const key=s=>s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g,"-");
+function minDays(){
+ const fq=countFlowers(),sq=subProducts.reduce((a,p)=>a+(cart[p.name]||0),0);let d=0;
+ d=Math.max(d,tierDays(LEAD_TIERS.flowers,fq));
+ d=Math.max(d,tierDays(LEAD_TIERS.custom,sq));
+ galleryCartProducts.forEach(p=>{if(cart[p.name]>0)d=Math.max(d,p.lead_days)});
+ return d;
+}
+function minDateStr(){const d=new Date();d.setDate(d.getDate()+minDays());const z=n=>String(n).padStart(2,"0");return `${d.getFullYear()}-${z(d.getMonth()+1)}-${z(d.getDate())}`}
+function countFlowers(){return flowerProducts.reduce((s,p)=>s+(cart[p.name]||0),0)}
+function ensurePaper(){if(countFlowers()>=5)cart["Papel Koreano"]=Math.max(2,cart["Papel Koreano"]||0)}
+function totals(){
+ const f=flowerProducts.reduce((s,p)=>s+p.price*(cart[p.name]||0),0)+decorProducts.reduce((s,p)=>s+p.price*(cart[p.name]||0),0)+galleryCartProducts.reduce((s,p)=>s+p.price*(cart[p.name]||0),0);
+ const eligible=subProducts.filter(p=>["mug","shirt"].includes(p.kind));
+ const sub= subProducts.reduce((s,p)=>s+p.price*(cart[p.name]||0),0);
+ const eligibleQty=eligible.reduce((s,p)=>s+(cart[p.name]||0),0);
+ const eligibleSum=eligible.reduce((s,p)=>s+p.price*(cart[p.name]||0),0);
+ const flowerQty=countFlowers(),flowerSum=flowerProducts.reduce((s,p)=>s+p.price*(cart[p.name]||0),0);
+ const subDiscount=eligibleQty>=6?eligibleSum*.10:0,flowerDiscount=flowerQty>=10?flowerSum*.05:0;
+ return {f,sub,discount:subDiscount+flowerDiscount,total:f+sub-subDiscount-flowerDiscount,flowerQty,eligibleQty,subDiscount,flowerDiscount};
+}
+function renderProduct(p,root){
+ const el=document.createElement("article");el.className="product";
+ el.innerHTML=`<div class="product-head">${productImg(p)}<span class="pname">${p.name}</span><span class="price">${money(p.price)}</span></div><div class="stepper"><button type="button" aria-label="Quitar ${p.name}" data-product="${p.name}" data-delta="-1">−</button><span class="qty" id="q-${key(p.name)}">0</span><button type="button" aria-label="Agregar ${p.name}" data-product="${p.name}" data-delta="1">+</button></div>`;
+ root.appendChild(el);
+}
+let activeCalculator="flowers";
+function renderCatalog(section=activeCalculator){
+ activeCalculator=section;
+ const root=document.getElementById("calculatorProducts");
+ root.innerHTML="";
+ const head=t=>{const h=document.createElement("h2");h.textContent=t;h.style.cssText="grid-column:1/-1;margin:8px 0 0";root.appendChild(h)};
+ if(section==="flowers"){head("Flores 🌷");flowerProducts.forEach(p=>renderProduct(p,root));head("Decoraciones ✨");decorProducts.forEach(p=>renderProduct(p,root))}
+ else subProducts.forEach(p=>renderProduct(p,root));
+ document.getElementById("calculatorLabel").textContent=section==="flowers"?"ETERNAL BLOOM":"PERSONALIZACIÓN";
+ document.getElementById("calculatorTitle").textContent=section==="flowers"?"Calculadora de flores 🌷":"Calculadora de personalización 🎨";
+ document.getElementById("calculatorHint").textContent=section==="flowers"?"Elige las flores y decoraciones. Desde 10 flores obtienes 5% de descuento; desde 5 flores se incluyen mínimo 2 papeles coreanos.":"Elige tus productos. Desde 6 pocillos y camisetas combinados obtienes 10% de descuento.";
+}
+function cartRow(p){
+ const g=p.category==="galeria";
+ return `<div class="itemline"><span>${cart[p.name]} × ${esc(p.name)}${g&&p.note?`<br><small class="muted">Cambios: ${esc(p.note)}</small>`:""}</span><b>${money(p.price*cart[p.name])}</b>${g?`<button type="button" class="soft" data-gremove="${esc(p.name)}" style="padding:4px 8px;font-size:11px;margin-left:6px">Quitar</button>`:""}</div>`;
+}
+function renderCart(){
+ for(let i=galleryCartProducts.length-1;i>=0;i--){const g=galleryCartProducts[i];if(!(cart[g.name]>0)){galleryCartProducts.splice(i,1);const j=allProducts.indexOf(g);if(j>=0)allProducts.splice(j,1)}}
+ ensurePaper();
+ const t=totals(),rows=allProducts.filter(p=>(cart[p.name]||0)>0);
+ document.getElementById("cartRows").innerHTML=rows.length?rows.map(cartRow).join(""):"Aún no agregas productos.";
+ document.getElementById("flowerSum").textContent=money(t.f);document.getElementById("subSum").textContent=money(t.sub);
+ document.getElementById("discountRow").hidden=t.discount<=0;document.getElementById("discountSum").textContent="-"+money(t.discount);
+ document.getElementById("grandTotal").textContent=money(t.total);
+ document.getElementById("paperNotice").hidden=t.flowerQty<5;
+ allProducts.forEach(p=>{const el=document.getElementById("q-"+key(p.name));if(el)el.textContent=cart[p.name]||0});
+ const homeRows=document.getElementById("homeCartRows");
+ if(homeRows)homeRows.innerHTML=rows.length?rows.map(cartRow).join(""):"Aún no agregas productos.";
+ const set=(id,value)=>{const el=document.getElementById(id);if(el)el.textContent=value};
+ set("homeFlowerSum",money(t.f));set("homeSubSum",money(t.sub));set("homeDiscountSum","-"+money(t.discount));set("homeGrandTotal",money(t.total));
+ const homeDiscount=document.getElementById("homeDiscountRow");if(homeDiscount)homeDiscount.hidden=t.discount<=0;
+ const homePaper=document.getElementById("homePaperNotice");if(homePaper)homePaper.hidden=t.flowerQty<5;
+ const dn=document.getElementById("depositNotice");if(dn){dn.hidden=t.total<=0;const ck=document.getElementById("copyKey");if(ck)ck.style.display=dn.hidden?"none":"";dn.textContent=`💳 Para iniciar tu pedido se pide un abono del ${DEPOSIT_PERCENT}%: ${money(t.total*DEPOSIT_PERCENT/100)}. Págalo por Bre-B a la llave ${BREB_KEY} y envía el comprobante por WhatsApp.`}
+ const dd=document.getElementById("deliveryDate"),dh=document.getElementById("dateHint"),md=minDays();
+ if(dd){const mn=minDateStr();dd.min=mn;if(dd.value&&dd.value<mn)dd.value=""}
+ if(dh)dh.textContent=md?`Para este pedido necesitamos mínimo ${dayStr(md)}. Fecha más cercana: ${minDateStr().split("-").reverse().join("/")}.`:"Agrega productos para ver el tiempo mínimo de entrega.";
+ const cb=document.getElementById("cardBox");if(cb){cb.hidden=!(cart["Tarjeta"]>0);if(cb.hidden)document.getElementById("cardMessage").value=""}
+ renderCustom();
+}
+document.addEventListener("click",e=>{
+ const b=e.target.closest("button[data-product]");if(!b)return;
+ const n=b.dataset.product;cart[n]=Math.max(0,(cart[n]||0)+Number(b.dataset.delta));ensurePaper();renderCart();
+});
+document.getElementById("clearCart").onclick=()=>{Object.keys(cart).forEach(k=>delete cart[k]);renderCart()};
+function customField(pi,u,label,sl){
+ return `<label>${esc(label)} · imagen (obligatoria)</label><input type="file" accept="image/*" data-cf data-pi="${pi}" data-u="${u}"><p class="muted">${sl.file?"✅ "+esc(sl.file.name):"Aún no has subido imagen"}</p><label>Frase (opcional)</label><input data-ct data-pi="${pi}" data-u="${u}" maxlength="120" value="${esc(sl.text)}" placeholder="Ej: Feliz cumpleaños mamá">`;
+}
+function renderCustom(){
+ const box=document.getElementById("customBox");if(!box)return;
+ Object.keys(custom).forEach(n=>{if(!(cart[n]>0))delete custom[n]});
+ const rows=subProducts.filter(p=>(cart[p.name]||0)>0);
+ if(!rows.length){box.innerHTML="";return}
+ box.innerHTML=`<h2 style="margin-top:16px">Personalización 🎨</h2><p class="hint">Sube la imagen de cada producto (mínimo una). La frase es opcional.</p>`+rows.map(p=>{
+  const q=cart[p.name],pi=subProducts.indexOf(p);
+  const c=custom[p.name]||(custom[p.name]={mode:"same",same:{file:null,text:""},units:[]});
+  while(c.units.length<q)c.units.push({file:null,text:""});c.units=c.units.slice(0,q);
+  const diff=q>1&&c.mode==="diff";
+  return `<div class="notice" style="background:#fff"><b>${q} × ${esc(p.name)}</b>`+
+   (q>1?`<label>¿Misma imagen para todos?</label><select data-cm data-pi="${pi}"><option value="same"${diff?"":" selected"}>Sí, la misma para todos</option><option value="diff"${diff?" selected":""}>No, una distinta para cada uno</option></select>`:"")+
+   (diff?c.units.map((u,i)=>customField(pi,i,`Unidad ${i+1}`,u)).join(""):customField(pi,"same",q>1?"Imagen para todos":"Tu imagen",c.same))+`</div>`;
+ }).join("");
+}
+const customSlot=(c,u)=>u==="same"?c.same:c.units[Number(u)];
+document.getElementById("customBox").addEventListener("change",e=>{
+ const t=e.target,p=subProducts[t.dataset.pi],c=p&&custom[p.name];if(!c)return;
+ if(t.matches("[data-cm]")){c.mode=t.value;renderCustom();return}
+ if(t.matches("[data-cf]")){
+  const f=t.files[0]||null;
+  if(f&&(!f.type.startsWith("image/")||f.size>MAX_IMG)){alert("Sube una imagen de máximo 10 MB.");t.value="";return}
+  customSlot(c,t.dataset.u).file=f;renderCustom();
+ }
+});
+document.getElementById("customBox").addEventListener("input",e=>{
+ const t=e.target;if(!t.matches("[data-ct]"))return;
+ const p=subProducts[t.dataset.pi],c=p&&custom[p.name];if(c)customSlot(c,t.dataset.u).text=t.value;
+});
+function validateCustom(){
+ for(const p of subProducts){
+  const q=cart[p.name]||0;if(!q)continue;const c=custom[p.name];
+  const need=(q>1&&c.mode==="diff")?c.units.map((u,i)=>[u,`la unidad ${i+1} de ${p.name}`]):[[c.same,p.name]];
+  for(const [sl,label] of need)if(!sl.file)return `Falta la imagen de personalización de ${label}.`;
+ }
+ return "";
+}
+function buildPersonalization(){
+ const out={};
+ subProducts.forEach(p=>{
+  const q=cart[p.name]||0;if(!q)return;const c=custom[p.name];
+  out[p.name]=(q>1&&c.mode==="diff")
+   ?{mode:"diff",entries:c.units.map((u,i)=>({label:`Unidad ${i+1}`,file:u.file,text:u.text.trim()}))}
+   :{mode:"same",entries:[{label:q>1?"Todas las unidades":"Unidad 1",file:c.same.file,text:c.same.text.trim()}]};
+ });
+ return out;
+}
+function persLines(it){
+ return it.personalization.entries.map(e=>`   • ${e.label}: ${e.image_path?"imagen enviada ✅":"imagen pendiente"}${e.text?` · Frase: "${e.text}"`:""}`).join("\n");
+}
+function persHtml(items){
+ const out=(items||[]).filter(i=>i.personalization).map(i=>{
+  const rows=i.personalization.entries.map(e=>`<div class="muted">• ${esc(e.label)}${e.image_path?` · <a href="#" class="view-img" data-path="${esc(e.image_path)}">Ver imagen</a>`:(e.image_name?" · imagen no subida (pedirla por WhatsApp)":"")}${e.text?` · Frase: “${esc(e.text)}”`:""}</div>`).join("");
+  return `<p><b>${esc(i.quantity)} × ${esc(i.name)}</b> (${i.personalization.mode==="diff"?"imágenes distintas":"misma imagen"})</p>${rows}`;
+ }).join("");
+ return out?`<div class="notice"><b>Personalización</b>${out}</div>`:"";
+}
+function orderPayload(){
+ const t=totals(),items=allProducts.filter(p=>(cart[p.name]||0)>0).map(p=>({name:p.name,quantity:cart[p.name],unit_price:p.price,line_total:p.price*cart[p.name],category:p.category,...(p.note?{note:p.note}:{}),...(p.image_url?{image_url:p.image_url}:{})}));
+ return {customer_name:document.getElementById("customerName").value.trim(),customer_phone:document.getElementById("customerPhone").value.trim(),customer_address:document.getElementById("deliveryMethod").value==="Recoger"?workshopAddress:document.getElementById("customerAddress").value.trim(),customer_notes:[(cart["Tarjeta"]>0?"Mensaje de la tarjeta: "+document.getElementById("cardMessage").value.trim():""),document.getElementById("customerNotes").value.trim()].filter(Boolean).join("\n"),items,subtotal:t.f+t.sub,discount:t.discount,total:t.total,delivery_method:document.getElementById("deliveryMethod").value,delivery_date:document.getElementById("deliveryDate").value||null};
+}
+function orderWhatsAppText(order,imagesFailed){
+ const itemLines=order.items.map(i=>`${i.quantity} x ${i.name}: ${money(i.line_total)}`+(i.note?"\n   • Cambios: "+i.note:"")+(i.personalization?"\n"+persLines(i):"")).join("\n");
+ const d=[];
+ if(totals().subDiscount)d.push(`Descuento sublimación 10%: -${money(totals().subDiscount)}`);
+ if(totals().flowerDiscount)d.push(`Descuento flores 5%: -${money(totals().flowerDiscount)}`);
+ const trackingUrl=order.tracking_token?new URL(`seguimiento.html?token=${encodeURIComponent(order.tracking_token)}`,location.href).href:"";
+ return `Hola, quiero confirmar mi pedido en ROLITAS CREATIVE STUDIO 💗\nPedido: ${order.order_number||"Enviado desde la tienda"}\nCliente: ${order.customer_name}\nTeléfono: ${order.customer_phone}\nEntrega: ${order.delivery_method}${order.delivery_method==="Domicilio"?" (se paga aparte)":""} · para el ${(order.delivery_date||"").split("-").reverse().join("/")}\nDirección: ${order.customer_address||"Por confirmar"}\n\n${itemLines}\n${d.join("\n")}\nTotal productos: ${money(order.total)}\nAbono para iniciar (${DEPOSIT_PERCENT}%): ${money(order.total*DEPOSIT_PERCENT/100)}\nNotas: ${order.customer_notes||"Ninguna"}${trackingUrl?"\n\nConsulta el estado de tu pedido aquí: "+trackingUrl:""}${LANG!=="es"?"\nIdioma del cliente: "+LANGS[LANG]:""}${imagesFailed?"\n⚠️ No se pudieron subir mis imágenes; las envío por este chat.":""}`;
+}
+async function insertOrder(client,order){
+ const {order_number:ref,...rest}=order; /* el número de pedido (bigint) lo asigna la base de datos */
+ let payload={...rest},error=null;
+ const note=x=>{payload.customer_notes=[x,payload.customer_notes].filter(Boolean).join("\n")};
+ if(ref)note(`Ref: ${ref}`);
+ for(let tries=0;tries<2;tries++){
+  ({error}=await client.from("orders").insert(payload));
+  if(!error)break;
+  if(/delivery_(method|date)/.test(error.message||"")&&"delivery_method" in payload){note(`Entrega: ${payload.delivery_method} · para el ${(payload.delivery_date||"").split("-").reverse().join("/")}`);delete payload.delivery_method;delete payload.delivery_date}
+  else break;
+ }
+ return {error,payload};
+}
+const orderLabel=o=>o.order_number==null?"Pedido":(/^\d+$/.test(String(o.order_number))?"#"+o.order_number:String(o.order_number));
+function newOrderNumber(){return "ROL-"+new Date().toISOString().slice(2,10).replace(/-/g,"")+"-"+Math.random().toString(36).slice(2,6).toUpperCase()}
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+document.getElementById("placeOrder").onclick=async()=>{
+ const order=orderPayload();
+ if(!order.customer_name||!order.customer_phone){alert("Por favor completa tu nombre y teléfono.");return}
+ if(!validColombianMobile(order.customer_phone)){alert("Escribe un número celular colombiano válido de 10 dígitos.");document.getElementById("customerPhone").focus();return}
+ if(!order.items.length){alert("Agrega al menos un producto a tu pedido.");return}
+ if(cart["Tarjeta"]>0&&!document.getElementById("cardMessage").value.trim()){alert("Escribe el mensaje que irá en tu tarjeta 💌");document.getElementById("cardMessage").focus();return}
+ if(!order.delivery_date){alert("Indícanos para cuándo necesitas tu pedido.");return}
+ if(order.delivery_date<minDateStr()){alert(`Para este pedido necesitamos mínimo ${dayStr(minDays())}. Elige el ${minDateStr().split("-").reverse().join("/")} o una fecha posterior.`);return}
+ if(order.delivery_method==="Domicilio"&&!order.customer_address){alert("Escribe tu dirección de entrega.");return}
+ if(order.delivery_method==="Recoger"&&!workshopAddress){alert("El taller aún no ha configurado su dirección. Comunícate con la tienda para coordinar la recogida.");return}
+ const perr=validateCustom();if(perr){alert(perr);return}
+ const btn=document.getElementById("placeOrder");
+ const wa=window.open("","_blank"); /* se abre dentro del clic para que el navegador no la bloquee */
+ btn.disabled=true;btn.textContent="Guardando pedido...";
+ order.order_number=newOrderNumber();
+ order.tracking_token=crypto.randomUUID();
+ btn.textContent="Subiendo imágenes...";
+ const pers=buildPersonalization();let imagesFailed=false,n=0;
+ for(const it of order.items){
+  const pr=pers[it.name];if(!pr)continue;
+  for(const e of pr.entries){
+   e.path=null;if(!e.file)continue;
+   try{
+    if(!db)throw new Error("Sin conexión");
+    const ext=((e.file.name.split(".").pop()||"jpg").toLowerCase().replace(/[^a-z0-9]/g,"").slice(0,5))||"jpg";
+    const path=`${order.order_number}/${++n}-${key(it.name)}.${ext}`;
+    const {error}=await db.storage.from(BUCKET).upload(path,e.file,{contentType:e.file.type||"image/jpeg"});
+    if(error)throw error;e.path=path;
+   }catch(err){console.error("Error al subir imagen:",err);imagesFailed=true}
+  }
+  it.personalization={mode:pr.mode,entries:pr.entries.map(e=>({label:e.label,image_path:e.path,image_name:e.file?e.file.name:null,text:e.text||null}))};
+ }
+ btn.textContent="Guardando pedido...";
+ const msg=orderWhatsAppText(order,imagesFailed); /* se arma antes de vaciar el carrito */
+ let saved=false,saveError=null;
+ try{
+  if(!db)throw new Error("Sin conexión con la base de datos");
+  const {error}=await insertOrder(db,order); /* sin .select(): el cliente no necesita leer el pedido */
+  if(error)throw error;
+  saved=true;
+ }catch(err){console.error("Error al guardar pedido en Supabase:",err);saveError=err}
+ const url=`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
+ if(wa&&!wa.closed){wa.location.href=url}else{window.location.href=url}
+ Object.keys(cart).forEach(k=>delete cart[k]);renderCart();
+ alert(saved?`¡Pedido ${order.order_number} guardado! Confirma los detalles por WhatsApp.`:"No pudimos guardar el pedido en la tienda, pero se envía por WhatsApp para que no se pierda."+(DEBUG&&saveError?"\n\nDetalle técnico: "+(saveError.message||saveError.code||"desconocido"):""));
+ if(imagesFailed)alert("No pudimos subir algunas imágenes. Envíalas por WhatsApp junto con tu pedido.");
+ btn.disabled=false;btn.textContent="Enviar pedido y abrir WhatsApp";
+};
+
+let galleryItems=[],galleryFilter="Todo",galleryShown=12;
+const galleryUrl=path=>db.storage.from(GALLERY_BUCKET).getPublicUrl(path).data.publicUrl;
+async function resizeImage(file,max=1000){
+ try{
+  const bmp=await createImageBitmap(file),r=Math.min(1,max/Math.max(bmp.width,bmp.height));
+  const c=document.createElement("canvas");c.width=Math.round(bmp.width*r);c.height=Math.round(bmp.height*r);
+  c.getContext("2d").drawImage(bmp,0,0,c.width,c.height);
+  return await new Promise(res=>c.toBlob(b=>res(b||file),"image/jpeg",0.8));
+ }catch(e){return file}
+}
+function galleryCaption(i){
+ const d=i.lead_days||LEAD.flowersSmall;
+ const wa=`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Hola, me interesa un ramo como el de la galería"+(i.title?": "+i.title:""))}`;
+ return `<figcaption>${i.title?`<b>${esc(i.title)}</b><br>`:""}${i.price?`${money(i.price)} · ⏱ ${dayStr(d)}<button type="button" class="primary gal-buy" data-id="${esc(i.id)}" style="width:100%;margin-top:6px;padding:7px 10px;font-size:12px">Comprar ahora</button>`:`<a href="${wa}" target="_blank" rel="noopener" style="display:block;margin-top:6px;text-align:center;font-size:12px;font-weight:700">Cotizar por WhatsApp</a>`}</figcaption>`;
+}
+function renderGallery(){
+ const catLabel=c=>c==="Sublimación"?"Personalización":c;
+ const cats=["Todo",...new Set(galleryItems.map(i=>i.category).filter(Boolean))];
+ if(!cats.includes(galleryFilter))galleryFilter="Todo";
+ document.getElementById("galleryFilters").innerHTML=cats.length>2?cats.map(c=>`<button type="button" class="${c===galleryFilter?"primary":"plain"}" data-gf="${esc(c)}">${esc(catLabel(c))}</button>`).join(""):"";
+ const list=galleryItems.filter(i=>galleryFilter==="Todo"||i.category===galleryFilter);
+ document.getElementById("galleryGrid").innerHTML=(list.length?list.slice(0,galleryShown).map(i=>`<figure class="gitem" style="position:relative"><img class="gal-open" data-id="${esc(i.id)}" style="cursor:zoom-in" loading="lazy" decoding="async" src="${esc(galleryUrl(i.image_path))}" alt="${esc(i.title||"Trabajo de ROLITAS")}">${(i.extra_paths&&i.extra_paths.length)?`<span style="position:absolute;top:8px;right:8px;background:rgba(0,0,0,.55);color:#fff;font-size:11px;padding:3px 8px;border-radius:999px;pointer-events:none">📷 ${i.extra_paths.length+1}</span>`:""}${galleryCaption(i)}</figure>`).join(""):'<div class="empty" style="grid-column:1/-1">Pronto subiremos nuestros trabajos 🌸</div>')+(list.length>galleryShown?'<div style="grid-column:1/-1;text-align:center"><button type="button" class="plain gal-more">Ver más trabajos</button></div>':"");
+}
+const adminThumbs=i=>(i.extra_paths&&i.extra_paths.length)?`<div style="display:flex;gap:4px;flex-wrap:wrap;margin-top:6px">${i.extra_paths.map((p,k)=>`<span style="position:relative"><img src="${esc(galleryUrl(p))}" alt="" loading="lazy" style="width:34px;height:34px;object-fit:cover;border-radius:6px"><button type="button" class="gal-rm" data-i="${k}" aria-label="Quitar foto" style="position:absolute;top:-5px;right:-5px;width:16px;height:16px;padding:0;border-radius:50%;font-size:10px;line-height:16px">✕</button></span>`).join("")}</div>`:"";
+function renderGalleryAdmin(){
+ const root=document.getElementById("galAdminList");
+ root.innerHTML=galleryItems.length?galleryItems.map(i=>`<figure class="gitem" data-id="${esc(i.id)}"><img loading="lazy" src="${esc(galleryUrl(i.image_path))}" alt=""><figcaption>${esc(i.title||"Sin título")} <span class="muted">· ${esc(i.category||"")} · ${i.price?money(i.price):"sin precio"} · ${i.lead_days||LEAD.flowersSmall} días</span><div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:6px"><button class="soft gal-add" type="button" style="padding:6px 9px;font-size:11px">+ Fotos</button><button class="soft gal-edit" type="button" style="padding:6px 9px;font-size:11px">Editar</button><button class="danger gal-del" type="button" style="padding:6px 9px;font-size:11px">Eliminar</button></div>${adminThumbs(i)}</figcaption></figure>`).join(""):'<div class="empty" style="grid-column:1/-1">Aún no hay fotos.</div>';
+}
+async function loadGallery(){
+ const root=document.getElementById("galleryGrid");
+ if(!db){root.innerHTML='<div class="empty" style="grid-column:1/-1">Galería no disponible por ahora.</div>';return}
+ const {data,error}=await db.from("gallery").select("*").order("created_at",{ascending:false}).limit(200);
+ if(error){console.error("Galería:",error);root.innerHTML='<div class="empty" style="grid-column:1/-1">Pronto subiremos nuestros trabajos 🌸</div>';return}
+ galleryItems=data||[];renderGallery();renderGalleryAdmin();
+}
+document.getElementById("galleryFilters").addEventListener("click",e=>{const b=e.target.closest("[data-gf]");if(b){galleryFilter=b.dataset.gf;galleryShown=12;renderGallery()}});
+let buyItem=null,modalPushed=false;const bm=id=>document.getElementById(id);
+function modalOpen(){if(!modalPushed){history.pushState({m:1},"");modalPushed=true}}
+function vmHide(){bm("viewModal").hidden=true;document.body.style.overflow=""}
+function modalClose(){vmHide();bm("buyModal").hidden=true;if(modalPushed){modalPushed=false;history.back()}}
+window.addEventListener("popstate",()=>{if(modalPushed){modalPushed=false;vmHide();bm("buyModal").hidden=true}});
+document.getElementById("galleryGrid").addEventListener("click",e=>{if(e.target.closest(".gal-more")){galleryShown+=12;renderGallery()}});
+function openBuy(item){
+ buyItem=item;
+ bm("bmImg").src=galleryUrl(buyItem.image_path);bm("bmTitle").textContent=buyItem.title||"Ramo de la galería";
+ bm("bmPrice").textContent=money(buyItem.price);bm("bmDays").textContent=`Listo en aprox. ${dayStr(buyItem.lead_days||LEAD.flowersSmall)}`;
+ bm("bmNote").value="";bm("bmQty").value=1;bm("buyModal").hidden=false;modalOpen();
+}
+document.getElementById("galleryGrid").addEventListener("click",e=>{const b=e.target.closest(".gal-buy"),it=b&&galleryItems.find(i=>i.id===b.dataset.id);if(it)openBuy(it)});
+let vmItem=null,vmIdx=0;
+const vmList=()=>[vmItem.image_path,...(vmItem.extra_paths||[])];
+function vmShow(i){
+ const l=vmList();vmIdx=(i+l.length)%l.length;
+ bm("vmImg").src=galleryUrl(l[vmIdx]);bm("vmCount").textContent=`${vmIdx+1} / ${l.length}`;
+ bm("vmPrev").hidden=bm("vmNext").hidden=l.length<2;
+ bm("vmThumbs").innerHTML=l.length>1?l.map((p,k)=>`<img src="${esc(galleryUrl(p))}" data-k="${k}" alt="" style="width:54px;height:54px;object-fit:cover;border-radius:8px;flex:none;cursor:pointer;border:2px solid ${k===vmIdx?"#fff":"transparent"};opacity:${k===vmIdx?1:.6}">`).join(""):"";
+}
+document.getElementById("galleryGrid").addEventListener("click",e=>{
+ const im=e.target.closest(".gal-open");if(!im)return;
+ vmItem=galleryItems.find(i=>i.id===im.dataset.id);if(!vmItem)return;
+ bm("vmInfo").textContent=[vmItem.title,vmItem.price?money(vmItem.price)+" · ⏱ "+dayStr(vmItem.lead_days||LEAD.flowersSmall):""].filter(Boolean).join(" · ");
+ bm("vmBuy").hidden=!vmItem.price;vmShow(0);bm("viewModal").hidden=false;document.body.style.overflow="hidden";modalOpen();
+});
+bm("vmClose").onclick=bm("vmBack").onclick=modalClose;
+bm("vmMain").addEventListener("click",e=>{if(e.target===bm("vmMain"))modalClose()});
+bm("vmPrev").onclick=()=>vmShow(vmIdx-1);bm("vmNext").onclick=()=>vmShow(vmIdx+1);
+bm("vmThumbs").addEventListener("click",e=>{const t=e.target.closest("[data-k]");if(t)vmShow(Number(t.dataset.k))});
+bm("vmBuy").onclick=()=>{const it=vmItem;vmHide();if(it)openBuy(it)};
+let vmX=null;
+bm("vmImg").addEventListener("touchstart",e=>{vmX=e.touches[0].clientX},{passive:true});
+bm("vmImg").addEventListener("touchend",e=>{if(vmX===null)return;const dx=e.changedTouches[0].clientX-vmX;vmX=null;if(Math.abs(dx)>50)vmShow(vmIdx+(dx<0?1:-1))});
+document.addEventListener("keydown",e=>{if(bm("viewModal").hidden)return;if(e.key==="Escape")modalClose();if(e.key==="ArrowLeft")vmShow(vmIdx-1);if(e.key==="ArrowRight")vmShow(vmIdx+1)});
+const productImages={};
+const prodUrl=k=>productImages[k]?db.storage.from(GALLERY_BUCKET).getPublicUrl(productImages[k]).data.publicUrl:null;
+function productImg(p){const k=key(p.name),u=prodUrl(k);return u?`<img class="pimg" data-pk="${esc(k)}" src="${esc(u)}" alt="${esc(p.name)}" loading="lazy" decoding="async">`:`<span class="emoji">${p.emoji}</span>`}
+function renderProductAdmin(){
+ const root=document.getElementById("prodAdminList");
+ root.innerHTML=[["Flores",flowerProducts],["Decoraciones",decorProducts],["Personalización",subProducts]].map(([t,list])=>`<h3 style="margin:12px 0 4px">${t}</h3>`+list.map(p=>{const k=key(p.name),u=prodUrl(k);return `<div class="itemline" data-pk="${esc(k)}" style="align-items:center;gap:8px">${u?`<img class="pimg" src="${esc(u)}" alt="">`:`<span class="emoji">${p.emoji}</span>`}<span style="flex:1">${esc(p.name)}</span><button type="button" class="soft prod-up" style="padding:6px 9px;font-size:11px">${u?"Cambiar foto":"Subir foto"}</button>${u?`<button type="button" class="danger prod-del" style="padding:6px 9px;font-size:11px">Usar emoji</button>`:""}</div>`}).join("")).join("");
+}
+async function loadProductImages(){
+ if(!db)return;
+ const {data,error}=await db.from("product_images").select("product_key,image_path");
+ if(error){console.error("Fotos de productos:",error);return}
+ Object.keys(productImages).forEach(k=>delete productImages[k]);
+ (data||[]).forEach(r=>{productImages[r.product_key]=r.image_path});
+ renderCatalog();renderCart();renderProductAdmin();
+}
+let prodTarget=null;
+document.getElementById("prodAdminList").addEventListener("click",async e=>{
+ const row=e.target.closest("[data-pk]");if(!row)return;const k=row.dataset.pk;
+ if(e.target.closest(".prod-up")){prodTarget=k;document.getElementById("prodFile").click();return}
+ if(e.target.closest(".prod-del")){
+  if(!confirm("¿Quitar la foto y volver al emoji?"))return;
+  const old=productImages[k],{error}=await db.from("product_images").delete().eq("product_key",k);
+  if(error){alert("No se pudo quitar la foto.");return}
+  if(old)await db.storage.from(GALLERY_BUCKET).remove([old]);await loadProductImages();
+ }
+});
+document.getElementById("prodFile").addEventListener("change",async e=>{
+ const f=e.target.files[0],k=prodTarget,msg=document.getElementById("prodMsg");e.target.value="";
+ if(!f||!k)return;
+ if(!f.type.startsWith("image/")){msg.textContent="Elige una imagen.";return}
+ msg.textContent="Subiendo foto...";
+ const blob=await resizeImage(f,600),path=`productos/${k}-${Date.now()}.jpg`;
+ const {error:ue}=await db.storage.from(GALLERY_BUCKET).upload(path,blob,{contentType:blob.type||"image/jpeg"});
+ if(ue){console.error(ue);msg.textContent="No se pudo subir la foto.";return}
+ const old=productImages[k];
+ const {error}=await db.from("product_images").upsert({product_key:k,image_path:path,updated_at:new Date().toISOString()});
+ if(error){console.error(error);await db.storage.from(GALLERY_BUCKET).remove([path]);msg.textContent="No se pudo guardar. Revisa que ejecutaste el SQL de fotos de productos.";return}
+ if(old)await db.storage.from(GALLERY_BUCKET).remove([old]);
+ msg.textContent="✅ Foto actualizada.";await loadProductImages();
+});
+document.getElementById("calculatorProducts").addEventListener("click",e=>{
+ const im=e.target.closest(".pimg");if(!im||!productImages[im.dataset.pk])return;
+ vmItem={image_path:productImages[im.dataset.pk],extra_paths:[],title:im.alt,price:null};
+ bm("vmInfo").textContent=im.alt;bm("vmBuy").hidden=true;vmShow(0);bm("viewModal").hidden=false;document.body.style.overflow="hidden";modalOpen();
+});
+bm("bmClose").onclick=bm("bmBack").onclick=modalClose;
+bm("buyModal").addEventListener("click",e=>{if(e.target===bm("buyModal"))modalClose()});
+bm("bmAdd").onclick=()=>{
+ if(!buyItem)return;
+ const q=Math.max(1,Math.min(20,Number(bm("bmQty").value)||1)),base=buyItem.title||"Ramo de la galería";
+ let name=base,n=1;while(allProducts.some(x=>x.name===name))name=`${base} (${++n})`;
+ const prod={name,price:Number(buyItem.price),emoji:"🌸",category:"galeria",lead_days:buyItem.lead_days||LEAD.flowersSmall,note:bm("bmNote").value.trim(),image_url:galleryUrl(buyItem.image_path)};
+ allProducts.push(prod);galleryCartProducts.push(prod);cart[name]=q;
+ modalClose();renderCart();showView("shop");
+ setTimeout(()=>document.querySelector(".summary").scrollIntoView({behavior:"smooth"}),80);
+};
+document.addEventListener("click",e=>{const b=e.target.closest("[data-gremove]");if(b){delete cart[b.dataset.gremove];renderCart()}});
+async function uploadGalleryFile(f){
+ if(!f.type.startsWith("image/"))return null;
+ const blob=await resizeImage(f),ext=(blob.type.split("/")[1]||"jpg").replace("jpeg","jpg").replace(/[^a-z0-9]/g,"")||"jpg";
+ const path=`${Date.now()}-${Math.random().toString(36).slice(2,8)}.${ext}`;
+ const {error}=await db.storage.from(GALLERY_BUCKET).upload(path,blob,{contentType:blob.type||"image/jpeg"});
+ if(error){console.error(error);return null}
+ return path;
+}
+document.getElementById("galUpload").onclick=async()=>{
+ const files=[...document.getElementById("galFiles").files],msg=document.getElementById("galMsg"),btn=document.getElementById("galUpload");
+ const title=document.getElementById("galTitle").value.trim(),cat=document.getElementById("galCategory").value,same=document.getElementById("galSame").checked;
+ const price=Number(document.getElementById("galPrice").value)||null,days=Math.round(Number(document.getElementById("galDays").value))||null;
+ if(!files.length){msg.textContent="Elige al menos una foto.";return}
+ btn.disabled=true;let ok=0,done="";
+ if(same){
+  const paths=[];
+  for(const [i,f] of files.entries()){msg.textContent=`Subiendo ${i+1} de ${files.length}...`;const pth=await uploadGalleryFile(f);if(pth)paths.push(pth)}
+  if(paths.length){
+   const {error}=await db.from("gallery").insert({title:title||null,category:cat,image_path:paths[0],extra_paths:paths.slice(1),price,lead_days:days});
+   if(error){console.error(error);await db.storage.from(GALLERY_BUCKET).remove(paths)}else{ok=1;done=`✅ Ramo subido con ${paths.length} foto(s).`}
+  }
+ }else{
+  for(const [i,f] of files.entries()){
+   msg.textContent=`Subiendo ${i+1} de ${files.length}...`;
+   const pth=await uploadGalleryFile(f);if(!pth)continue;
+   const {error}=await db.from("gallery").insert({title:title||null,category:cat,image_path:pth,price,lead_days:days});
+   if(error){console.error(error);await db.storage.from(GALLERY_BUCKET).remove([pth]);continue}
+   ok++;
+  }
+  done=`✅ ${ok} foto(s) subida(s).`;
+ }
+ msg.textContent=ok?done:"No se pudo subir. Revisa que ejecutaste los SQL de la galería, de precios y de fotos múltiples, y que iniciaste sesión.";
+ document.getElementById("galFiles").value="";btn.disabled=false;await loadGallery();
+};
+let addTarget=null;
+document.getElementById("galAddFiles").addEventListener("change",async e=>{
+ const files=[...e.target.files],item=galleryItems.find(i=>i.id===addTarget),msg=document.getElementById("galMsg");e.target.value="";
+ if(!item||!files.length)return;
+ const paths=[];
+ for(const [i,f] of files.entries()){msg.textContent=`Subiendo ${i+1} de ${files.length}...`;const pth=await uploadGalleryFile(f);if(pth)paths.push(pth)}
+ if(paths.length){
+  const {error}=await db.from("gallery").update({extra_paths:[...(item.extra_paths||[]),...paths]}).eq("id",item.id);
+  if(error){console.error(error);await db.storage.from(GALLERY_BUCKET).remove(paths);msg.textContent="No se pudo agregar. Revisa el SQL de fotos múltiples."}else msg.textContent=`✅ ${paths.length} foto(s) agregada(s).`;
+ }else msg.textContent="No se pudieron subir las fotos.";
+ await loadGallery();
+});
+document.getElementById("galAdminList").addEventListener("click",async e=>{
+ const card=e.target.closest(".gitem"),item=card&&galleryItems.find(i=>i.id===card.dataset.id);if(!item)return;
+ const rm=e.target.closest(".gal-rm");
+ if(rm){
+  if(!confirm("¿Quitar esta foto del ramo?"))return;
+  const ex=[...(item.extra_paths||[])],[gone]=ex.splice(Number(rm.dataset.i),1);
+  const {error}=await db.from("gallery").update({extra_paths:ex}).eq("id",item.id);
+  if(error){alert("No se pudo quitar la foto.");return}
+  if(gone)await db.storage.from(GALLERY_BUCKET).remove([gone]);await loadGallery();return;
+ }
+ if(e.target.closest(".gal-add")){addTarget=item.id;document.getElementById("galAddFiles").click();return}
+ if(e.target.closest(".gal-edit")){
+  const t=prompt("Título:",item.title||"");if(t===null)return;
+  const pr=prompt("Precio en COP (vacío = sin precio):",item.price||"");if(pr===null)return;
+  const dy=prompt("Días mínimos para tenerlo listo (vacío = 7):",item.lead_days||"");if(dy===null)return;
+  const {error}=await db.from("gallery").update({title:t.trim()||null,price:Number(pr)>0?Number(pr):null,lead_days:Number(dy)>0?Math.round(Number(dy)):null}).eq("id",item.id);
+  if(error){alert("No se pudo guardar.");return}await loadGallery();
+ }else if(e.target.closest(".gal-del")){
+  if(!confirm("¿Eliminar esta foto de la galería?"))return;
+  const {error}=await db.from("gallery").delete().eq("id",item.id);
+  if(error){alert("No se pudo eliminar.");return}
+  await db.storage.from(GALLERY_BUCKET).remove([item.image_path,...(item.extra_paths||[])]);await loadGallery();
+ }
+});
+function showView(name){
+ [["gallery","galleryView","galleryTab"],["shop","shopView","shopTab"],["admin","adminView","adminTab"]].forEach(([n,v,t])=>{
+  document.getElementById(v).classList.toggle("active",name===n);
+  document.getElementById(t).className=name===n?"primary":"plain";
+ });
+ window.scrollTo({top:0});
+}
+document.getElementById("galleryTab").onclick=()=>showView("gallery");
+document.getElementById("shopTab").onclick=()=>showView("shop");
+document.getElementById("adminTab").onclick=()=>showView("admin");
+document.getElementById("goOrder").onclick=()=>showView("shop");
+function setLoginMessage(s){document.getElementById("loginMessage").textContent=s}
+async function checkSession(){
+ if(!db){setLoginMessage("Conecta Supabase para habilitar el acceso privado.");return}
+ const {data:{session}}=await db.auth.getSession();
+ if(session){
+  if(String(session.user?.email||"").toLowerCase()!==ADMIN_EMAIL){await db.auth.signOut();setLoginMessage("Esta cuenta no está autorizada para administrar la tienda.");return}
+  document.getElementById("loginPanel").hidden=true;document.getElementById("dashboard").hidden=false;
+  await loadWorkshopAddress();
+  document.getElementById("workshopAddressInput").value=workshopAddress;
+  await loadOrders();
+ }
+}
+document.getElementById("loginButton").onclick=async()=>{
+ if(!db){setLoginMessage("Primero configura la conexión a la base de datos.");return}
+ const email=document.getElementById("adminEmail").value.trim().toLowerCase(),password=document.getElementById("adminPassword").value;
+ if(!email||!password){setLoginMessage("Escribe tu correo y contraseña.");return}
+ if(email!==ADMIN_EMAIL){setLoginMessage("Esta cuenta no está autorizada para administrar la tienda.");return}
+ const btn=document.getElementById("loginButton");btn.disabled=true;setLoginMessage("Verificando acceso...");
+ let {error}=await db.auth.signInWithPassword({email,password});
+ if(error&&password!==password.trim())({error}=await db.auth.signInWithPassword({email,password:password.trim()}));
+ btn.disabled=false;
+ if(error){console.error("Login:",error);setLoginMessage("No fue posible iniciar sesión: "+(error.message||"verifica tus datos")+(error.code||error.status?" ("+(error.code||error.status)+")":"")+". Toca «Probar conexión» para revisar el proyecto.");return}
+ const {data:{user}}=await db.auth.getUser();
+ if(String(user?.email||"").toLowerCase()!==ADMIN_EMAIL){await db.auth.signOut();setLoginMessage("Esta cuenta no está autorizada para administrar la tienda.");return}
+ document.getElementById("loginPanel").hidden=true;document.getElementById("dashboard").hidden=false;
+ await loadWorkshopAddress();document.getElementById("workshopAddressInput").value=workshopAddress;await loadOrders();
+};
+document.getElementById("testConn").onclick=async()=>{
+ setLoginMessage("Probando conexión...");
+ try{
+  const r=await fetch(SUPABASE_URL+"/auth/v1/settings",{headers:{apikey:SUPABASE_ANON_KEY}}),j=await r.json().catch(()=>({}));
+  const ref=new URL(SUPABASE_URL).host.split(".")[0];
+  setLoginMessage(r.ok?`Conexión OK ✅ Proyecto: ${ref}. Ingreso con correo: ${j.external&&j.external.email?"activado":"DESACTIVADO"}.`:`Error de conexión (${r.status}): ${j.msg||j.message||"revisa la URL y la llave"}. Proyecto: ${ref}.`);
+ }catch(e){setLoginMessage("No se pudo conectar con Supabase: "+e.message)}
+};
+document.getElementById("logoutButton").onclick=async()=>{await db.auth.signOut();document.getElementById("dashboard").hidden=true;document.getElementById("loginPanel").hidden=false;setLoginMessage("Sesión cerrada.")};
+document.getElementById("saveWorkshopAddress").onclick=async()=>{
+ const input=document.getElementById("workshopAddressInput"),msg=document.getElementById("workshopAddressMessage"),value=input.value.trim(),btn=document.getElementById("saveWorkshopAddress");
+ if(!db){msg.textContent="No hay conexión con Supabase.";return}
+ if(!value){msg.textContent="Escribe la dirección completa antes de guardar.";input.focus();return}
+ const {data:{user}}=await db.auth.getUser();
+ if(String(user?.email||"").toLowerCase()!==ADMIN_EMAIL){msg.textContent="Tu cuenta no tiene permiso para cambiar esta dirección.";return}
+ btn.disabled=true;msg.textContent="Guardando...";
+ const {error}=await db.from("store_settings").upsert({id:true,workshop_address:value},{onConflict:"id"});
+ btn.disabled=false;
+ if(error){console.error("Guardar dirección:",error);msg.textContent="No se pudo guardar. Revisa que hayas ejecutado el SQL de configuración en Supabase. "+error.message;return}
+ workshopAddress=value;msg.textContent="Dirección guardada correctamente.";
+ if(document.getElementById("deliveryMethod").value==="Recoger")await syncDeliveryAddress();
+};
+document.getElementById("deliveryMethod").addEventListener("change",()=>syncDeliveryAddress(true));
+let cachedOrders=[];
+function renderOrders(){
+ const q=document.getElementById("orderSearch").value.toLowerCase();
+ const list=cachedOrders.filter(o=>(`${o.order_number} ${o.customer_name} ${o.customer_phone}`).toLowerCase().includes(q));
+ document.getElementById("ordersList").innerHTML=list.length?list.map(o=>`
+ <article class="order" data-id="${o.id}">
+  <div class="order-top"><div><h3>${esc(orderLabel(o))} · ${esc(o.customer_name)}</h3><p>${new Date(o.created_at).toLocaleString("es-CO")} · ${esc(o.customer_phone)}</p><span class="pill">${esc(o.order_status)}</span></div><b>${money(o.total+Number(o.shipping_cost||0))}</b></div>
+  <p><b>Dirección:</b> ${esc(o.customer_address||"Por confirmar")}</p>
+  <p><b>Entrega:</b> ${esc(o.delivery_method||"Por definir")} · ${esc(o.delivery_date?o.delivery_date.split("-").reverse().join("/"):"Sin fecha")}</p>
+  <p><b>Productos:</b> ${(o.items||[]).map(i=>`${esc(i.quantity)} × ${esc(i.name)}${i.note?` (Cambios: ${esc(i.note)})`:""}${/^https:\/\//.test(i.image_url||"")?` · <a href="${esc(i.image_url)}" target="_blank" rel="noopener">ver foto</a>`:""}`).join(", ")}</p>
+  ${persHtml(o.items)}
+  <p><b>Notas:</b> ${esc(o.customer_notes||"Sin notas")}</p>
+  <div class="order-controls">
+   <div><label>Estado</label><select class="edit-status"><option ${o.order_status==="Nuevo"?"selected":""}>Nuevo</option><option ${o.order_status==="Confirmado"?"selected":""}>Confirmado</option><option ${o.order_status==="En producción"?"selected":""}>En producción</option><option ${o.order_status==="Listo para entregar"?"selected":""}>Listo para entregar</option><option ${o.order_status==="Entregado"?"selected":""}>Entregado</option><option ${o.order_status==="Cancelado"?"selected":""}>Cancelado</option></select></div>
+   <div><label>Domicilio (COP)</label><input class="edit-shipping" type="number" min="0" value="${Number(o.shipping_cost||0)}"></div>
+   <div><label>Abono recibido (COP)</label><input class="edit-deposit" type="number" min="0" value="${Number(o.deposit||0)}"></div>
+  </div>
+  <div class="order-controls">
+   <div><label>Medio de pago</label><select class="edit-method"><option value="">Sin registrar</option><option ${o.payment_method==="Transferencia"?"selected":""}>Transferencia</option><option ${o.payment_method==="Efectivo"?"selected":""}>Efectivo</option><option ${o.payment_method==="Otro"?"selected":""}>Otro</option></select></div>
+   <div><label>Estado de pago</label><select class="edit-payment"><option ${o.payment_status==="Pendiente"?"selected":""}>Pendiente</option><option ${o.payment_status==="Abono"?"selected":""}>Abono</option><option ${o.payment_status==="Pagado"?"selected":""}>Pagado</option></select></div>
+   <div style="display:flex;align-items:end"><button class="primary save-order" style="width:100%">Guardar cambios</button></div>
+  </div>
+  <p><b>Total con domicilio:</b> ${money(Number(o.total)+Number(o.shipping_cost||0))} · <b>Saldo:</b> ${money(Math.max(0,Number(o.total)+Number(o.shipping_cost||0)-Number(o.deposit||0)))}</p>
+  <button class="danger del-order" type="button" style="margin-top:10px">Eliminar pedido</button>
+ </article>`).join(""):'<div class="empty">No hay pedidos para mostrar.</div>';
+ document.getElementById("statOrders").textContent=cachedOrders.length;
+ document.getElementById("statPending").textContent=cachedOrders.filter(o=>!["Entregado","Cancelado"].includes(o.order_status)).length;
+ document.getElementById("statSales").textContent=money(cachedOrders.reduce((s,o)=>s+Number(o.total||0)+Number(o.shipping_cost||0),0));
+ document.getElementById("statBalance").textContent=money(cachedOrders.reduce((s,o)=>s+Math.max(0,Number(o.total||0)+Number(o.shipping_cost||0)-Number(o.deposit||0)),0));
+}
+async function loadOrders(){
+ const root=document.getElementById("ordersList");root.innerHTML='<div class="empty">Cargando pedidos...</div>';
+ const {data,error}=await db.from("orders").select("*").order("created_at",{ascending:false}).limit(250);
+ if(error){console.error("Pedidos:",error);root.innerHTML=`<div class="notice">No se pudieron cargar los pedidos. Detalle: ${esc(error.message||"error desconocido")}${error.code?" (código "+esc(error.code)+")":""}. Si menciona permisos o "row-level security", falta ejecutar el SQL de pedidos en Supabase.</div>`;return}
+ cachedOrders=data||[];renderOrders();
+}
+document.getElementById("refreshOrders").onclick=loadOrders;
+const MO_ROW='<div class="mo-row" style="display:grid;grid-template-columns:1fr 62px 96px;gap:6px;margin-top:6px"><input class="mo-name" placeholder="Producto"><input class="mo-qty" type="number" min="1" value="1"><input class="mo-price" type="number" min="0" placeholder="Precio"></div>';
+function moRows(){return [...document.querySelectorAll("#moItems .mo-row")].map(r=>({name:r.querySelector(".mo-name").value.trim(),quantity:Number(r.querySelector(".mo-qty").value||0),unit_price:Number(r.querySelector(".mo-price").value||0)})).filter(i=>i.name)}
+function moUpdateTotal(){document.getElementById("moTotal").textContent="Total productos: "+money(moRows().reduce((t,i)=>t+i.quantity*i.unit_price,0))}
+document.getElementById("moAdd").onclick=()=>document.getElementById("moItems").insertAdjacentHTML("beforeend",MO_ROW);
+document.getElementById("moItems").addEventListener("input",moUpdateTotal);
+document.getElementById("moItems").insertAdjacentHTML("beforeend",MO_ROW);
+document.getElementById("moSave").onclick=async()=>{
+ const $=id=>document.getElementById(id),msg=$("moMsg"),btn=$("moSave");
+ const name=$("moName").value.trim(),rows=moRows();
+ if(!name){msg.textContent="Escribe el nombre del cliente.";return}
+ if(!rows.length||rows.some(i=>i.quantity<1||i.unit_price<0)){msg.textContent="Agrega al menos un producto con cantidad y precio.";return}
+ const items=rows.map(i=>({...i,line_total:i.quantity*i.unit_price,category:"manual"}));
+ const total=items.reduce((t,i)=>t+i.line_total,0),shipping=Math.max(0,Number($("moShipping").value||0)),deposit=Math.max(0,Number($("moDeposit").value||0));
+ if(deposit>total+shipping){msg.textContent="El abono no puede superar el total con domicilio.";return}
+ const order={customer_name:name,customer_phone:$("moPhone").value.trim(),customer_address:$("moAddress").value.trim()||null,customer_notes:$("moNotes").value.trim()||null,items,subtotal:total,discount:0,total,shipping_cost:shipping,deposit,balance:Math.max(0,total+shipping-deposit),order_status:$("moStatus").value,payment_status:deposit<=0?"Pendiente":(deposit>=total+shipping?"Pagado":"Abono"),payment_method:$("moPayMethod").value||null,delivery_method:$("moMethod").value,delivery_date:$("moDelivery").value||null};
+ if($("moDate").value)order.created_at=new Date($("moDate").value+"T12:00:00").toISOString();
+ btn.disabled=true;msg.textContent="Guardando...";
+ const {error}=await insertOrder(db,order);
+ btn.disabled=false;
+ if(error){console.error("Pedido manual:",error);msg.textContent="No se pudo guardar: "+(error.message||"error")+". Si menciona permisos, ejecuta el SQL de gestión de pedidos.";return}
+ ["moName","moPhone","moAddress","moNotes","moDelivery","moDate"].forEach(id=>$(id).value="");$("moShipping").value=0;$("moDeposit").value=0;
+ $("moItems").innerHTML=MO_ROW;moUpdateTotal();msg.textContent="✅ Pedido registrado.";await loadOrders();
+};
+const diagHint=e=>(e.code==="42501"||/row-level security|permission denied/i.test(e.message||""))?"Falta permiso para los clientes: ejecuta supabase_pedidos.sql en Supabase.":/null value|not-null/i.test(e.message||"")?"Hay una columna obligatoria que la página no envía. Mándame este mensaje.":"Mándame este mensaje para revisarlo.";
+document.getElementById("diagRun").onclick=async()=>{
+ const msg=document.getElementById("diagMsg"),btn=document.getElementById("diagRun");
+ btn.disabled=true;msg.textContent="Probando como si fueras un cliente...";
+ try{
+  const anon=createClient(SUPABASE_URL,SUPABASE_ANON_KEY,{auth:{persistSession:false,autoRefreshToken:false,detectSessionInUrl:false,storageKey:"rolitas-prueba"}});
+  const name="PRUEBA (se borra sola)";
+  const order={order_number:"PRUEBA-"+Math.random().toString(36).slice(2,7).toUpperCase(),customer_name:name,customer_phone:"0000000000",customer_address:null,customer_notes:"Pedido de prueba del panel",items:[{name:"Prueba",quantity:1,unit_price:1000,line_total:1000,category:"prueba"}],subtotal:1000,discount:0,total:1000,delivery_method:"Recoger",delivery_date:new Date().toISOString().slice(0,10)};
+  const {error,payload}=await insertOrder(anon,order);
+  if(error){console.error("Prueba:",error);msg.textContent=`❌ Un cliente NO puede guardar pedidos. Error: ${error.message||"desconocido"}${error.code?" ("+error.code+")":""}. ${diagHint(error)}`;return}
+  const missing=Object.keys(order).filter(k=>k!=="order_number"&&!(k in payload));
+  const {data:rows,error:se}=await db.from("orders").select("id").eq("customer_name",name);
+  if(se||!rows||!rows.length){msg.textContent="⚠️ El cliente sí guardó el pedido, pero tu cuenta no puede verlo en el panel. Falta el permiso de lectura del administrador: ejecuta supabase_pedidos.sql en Supabase.";return}
+  const {data:gone}=await db.from("orders").delete().eq("customer_name",name).select("id");
+  msg.textContent=(gone&&gone.length?"✅ Todo funciona: el pedido de prueba se guardó, apareció en tu panel y ya lo borré.":"✅ Se guardó y aparece en tu panel, pero no pude borrarlo: elimínalo con el botón «Eliminar pedido».")+(missing.length?` Ojo: faltan columnas (${missing.join(", ")}); ejecuta supabase_arreglo_pedidos.sql.`:"");
+  await loadOrders();
+ }catch(e){console.error(e);msg.textContent="❌ No se pudo hacer la prueba: "+(e.message||e)}
+ finally{btn.disabled=false}
+};
+document.getElementById("orderSearch").oninput=renderOrders;
+document.getElementById("ordersList").addEventListener("click",async e=>{
+ const a=e.target.closest(".view-img");
+ if(a){
+  e.preventDefault();const w=window.open("","_blank");
+  const {data,error}=await db.storage.from(BUCKET).createSignedUrl(a.dataset.path,3600);
+  if(error||!data){if(w)w.close();alert("No se pudo abrir la imagen.");return}
+  if(w)w.location.href=data.signedUrl;else window.location.href=data.signedUrl;return;
+ }
+ const del=e.target.closest(".del-order");
+ if(del){
+  const card=del.closest(".order"),id=card.dataset.id,old=cachedOrders.find(o=>o.id===id);
+  if(!confirm(`¿Eliminar el pedido ${old?old.order_number:""}? No se puede deshacer.`))return;
+  del.disabled=true;
+  const {data,error}=await db.from("orders").delete().eq("id",id).select("id");
+  if(error||!data||!data.length){console.error("Eliminar pedido:",error);alert("No se pudo eliminar el pedido. Ejecuta el SQL de gestión de pedidos en Supabase.");del.disabled=false;return}
+  const paths=((old&&old.items)||[]).flatMap(i=>((i.personalization&&i.personalization.entries)||[]).map(x=>x.image_path).filter(Boolean));
+  if(paths.length)await db.storage.from(BUCKET).remove(paths);
+  await loadOrders();return;
+ }
+ const btn=e.target.closest(".save-order");if(!btn)return;
+ const card=btn.closest(".order"),id=card.dataset.id,old=cachedOrders.find(o=>o.id===id);
+ const shipping=Math.max(0,Number(card.querySelector(".edit-shipping").value||0));
+ const deposit=Math.max(0,Number(card.querySelector(".edit-deposit").value||0));
+ if(deposit>Number(old.total)+shipping){alert("El abono no puede superar el total con domicilio.");return}
+ btn.disabled=true;btn.textContent="Guardando...";
+ const patch={order_status:card.querySelector(".edit-status").value,shipping_cost:shipping,deposit,payment_method:card.querySelector(".edit-method").value||null,payment_status:card.querySelector(".edit-payment").value,balance:Math.max(0,Number(old.total)+shipping-deposit),updated_at:new Date().toISOString()};
+ const {error}=await db.from("orders").update(patch).eq("id",id);
+ if(error){alert("No se pudieron guardar los cambios.");btn.disabled=false;btn.textContent="Guardar cambios";return}
+ await loadOrders();
+});
+document.querySelectorAll("[data-open-section]").forEach(btn=>btn.addEventListener("click",()=>{
+ document.getElementById("shopHome").hidden=true;
+ document.getElementById("calculatorPage").hidden=false;
+ renderCatalog(btn.dataset.openSection);
+ renderCart();
+ window.scrollTo({top:0,behavior:"smooth"});
+}));
+document.getElementById("backToCategories").onclick=()=>{
+ document.getElementById("calculatorPage").hidden=true;
+ document.getElementById("shopHome").hidden=false;
+ renderCart();
+ window.scrollTo({top:0,behavior:"smooth"});
+};
+document.getElementById("homeClearCart").onclick=()=>{Object.keys(cart).forEach(k=>delete cart[k]);renderCart()};
+const shipSel=document.getElementById("deliveryMethod"),syncShip=()=>{document.getElementById("shipNotice").hidden=shipSel.value!=="Domicilio"};
+shipSel.addEventListener("change",syncShip);syncShip();
+document.getElementById("diagAll").onclick=async()=>{
+ const out=document.getElementById("diagAllMsg"),btn=document.getElementById("diagAll"),rows=[];
+ if(!db){out.textContent="No hay conexión con Supabase.";return}
+ btn.disabled=true;out.textContent="Revisando...";
+ const chk=async(name,fn,hint)=>{try{const r=await fn();rows.push(`✅ ${name}${r?": "+r:""}`)}catch(e){rows.push(`❌ ${name}: ${e.message||e}${hint?"\n   → "+hint:""}`)}};
+ const sel=async(table,cols)=>{const {error}=await db.from(table).select(cols).limit(1);if(error)throw error;return "ok"};
+ await chk("Pedidos",()=>sel("orders","id"),"ejecuta supabase_pedidos.sql");
+ await chk("Galería",()=>sel("gallery","id,title,category,image_path,price,lead_days,extra_paths"),"ejecuta supabase_galeria.sql, supabase_galeria_precios.sql y supabase_galeria_fotos.sql");
+ await chk("Fotos de productos",()=>sel("product_images","product_key,image_path"),"ejecuta supabase_fotos_productos.sql");
+ await chk("Dirección del taller",()=>sel("store_settings","workshop_address"),"ejecuta el SQL de configuración del taller");
+ await chk("Productos nuevos",()=>sel("custom_products","id,name,price,section,discount_eligible"),"ejecuta supabase_productos_nuevos.sql");
+ await chk("Ajuste de precios",()=>sel("store_settings","price_adjust_percent"),"ejecuta supabase_ajuste_precios.sql");
+ await chk("Fotos de la galería visibles",async()=>{
+  if(!galleryItems.length)return "aún no hay fotos";
+  const r=await fetch(galleryUrl(galleryItems[0].image_path),{method:"HEAD"});
+  if(!r.ok)throw new Error(`la primera foto responde ${r.status}; el espacio «galeria» debe ser público`);return "ok";
+ });
+ await chk("Imágenes privadas de pedidos",async()=>{const {error}=await db.storage.from(BUCKET).list("",{limit:1});if(error)throw error;return "ok"},"ejecuta supabase_imagenes.sql");
+ out.textContent=rows.join("\n");btn.disabled=false;
+};
+/* ===== Ajuste global de precios y acceso oculto al panel ===== */
+let PRICE_PCT=0;
+const adjPrice=(b,pct)=>Math.max(0,Math.round(b*(1+pct/100)/50)*50);
+const catalogProducts=()=>[...flowerProducts,...decorProducts,...subProducts];
+catalogProducts().forEach(p=>{p.basePrice=p.price});
+function applyPriceAdjust(pct){PRICE_PCT=Number(pct)||0;catalogProducts().forEach(p=>{p.price=adjPrice(p.basePrice,PRICE_PCT)});renderCatalog();renderCart()}
+async function loadPriceAdjust(){
+ if(!db)return;
+ const {data,error}=await db.from("store_settings").select("price_adjust_percent").eq("id",true).maybeSingle();
+ if(error){console.warn("Ajuste de precios:",error.message);return}
+ applyPriceAdjust(data?.price_adjust_percent||0);
+ const inp=document.getElementById("pricePct");if(inp)inp.value=PRICE_PCT||"";
+ priceShowPreview();
+}
+function priceShowPreview(){
+ const raw=document.getElementById("pricePct").value,pct=Number(raw),el=document.getElementById("pricePreview");
+ if(!raw.trim()||!isFinite(pct)){el.textContent="";return}
+ el.textContent="Ejemplo: "+[flowerProducts[0],decorProducts[0],subProducts[0]].map(p=>`${p.name} ${money(p.basePrice)} → ${money(adjPrice(p.basePrice,pct))}`).join(" · ");
+}
+document.getElementById("pricePct").addEventListener("input",priceShowPreview);
+async function savePriceAdjust(pct){
+ const msg=document.getElementById("priceMsg"),bA=document.getElementById("priceApply"),bR=document.getElementById("priceReset");
+ if(!db){msg.textContent="No hay conexión con Supabase.";return}
+ const {data:{user}}=await db.auth.getUser();
+ if(String(user?.email||"").toLowerCase()!==ADMIN_EMAIL){msg.textContent="Tu cuenta no tiene permiso para cambiar los precios.";return}
+ bA.disabled=bR.disabled=true;msg.textContent="Guardando...";
+ const {error}=await db.from("store_settings").upsert({id:true,price_adjust_percent:pct},{onConflict:"id"});
+ bA.disabled=bR.disabled=false;
+ if(error){console.error("Ajuste de precios:",error);msg.textContent="No se pudo guardar. Revisa que ejecutaste el SQL de ajuste de precios en Supabase. "+error.message;return}
+ applyPriceAdjust(pct);document.getElementById("pricePct").value=pct||"";priceShowPreview();
+ msg.textContent=pct?`✅ Precios actualizados (${pct>0?"+":""}${pct}%).`:"✅ Volvieron los precios originales.";
+}
+document.getElementById("priceApply").onclick=()=>{
+ const raw=document.getElementById("pricePct").value,pct=Number(raw),msg=document.getElementById("priceMsg");
+ if(!raw.trim()||!isFinite(pct)){msg.textContent="Escribe un porcentaje, por ejemplo 10 o -5.";return}
+ if(pct<=-90||pct>200){msg.textContent="Escribe un porcentaje entre -90 y 200.";return}
+ savePriceAdjust(pct);
+};
+document.getElementById("priceReset").onclick=()=>savePriceAdjust(0);
+/* El panel ya no tiene botón visible: se abre con tu enlace + #admin, o tocando 5 veces el pie de página */
+function checkAdminHash(){if(location.hash==="#admin")showView("admin")}
+window.addEventListener("hashchange",checkAdminHash);
+let footTaps=0,footLast=0;
+document.querySelector(".footer").addEventListener("click",()=>{const now=Date.now();footTaps=now-footLast>2000?1:footTaps+1;footLast=now;if(footTaps>=5){footTaps=0;showView("admin")}});
+document.getElementById("copyKey").onclick=async()=>{
+ const b=document.getElementById("copyKey");
+ try{await navigator.clipboard.writeText(BREB_KEY)}catch(e){const t=document.createElement("textarea");t.value=BREB_KEY;document.body.appendChild(t);t.select();try{document.execCommand("copy")}catch(_){}t.remove()}
+ b.textContent="¡Llave copiada!";setTimeout(()=>{b.textContent="Copiar llave Bre-B"},2000);
+};
+/* ===== Productos nuevos agregados desde el panel ===== */
+const customAdded=[],SEC_LABEL={flowers:"Flores",decor:"Decoraciones",custom:"Personalización"};
+let customRows=[];
+function mkCustomProduct(r){
+ const price=Number(r.price)||0,base={name:r.name,price,basePrice:price,emoji:r.emoji||(r.section==="flowers"?"🌸":r.section==="decor"?"✨":"🎁")};
+ if(r.section==="flowers")return {...base,category:"flower"};
+ if(r.section==="decor")return {...base,category:"decoration"};
+ return {...base,category:"sublimation",kind:r.discount_eligible?"mug":"other"};
+}
+async function loadCustomProducts(){
+ if(!db)return;
+ const {data,error}=await db.from("custom_products").select("*").order("created_at",{ascending:true});
+ if(error){console.warn("Productos nuevos:",error.message);return}
+ const removed=customAdded.splice(0).map(p=>{[flowerProducts,decorProducts,subProducts,allProducts].forEach(a=>{const i=a.indexOf(p);if(i>=0)a.splice(i,1)});return p.name});
+ customRows=data||[];
+ customRows.forEach(r=>{
+  if(allProducts.some(x=>x.name.trim().toLowerCase()===String(r.name).trim().toLowerCase()))return;
+  const p=mkCustomProduct(r);customAdded.push(p);
+  ({flowers:flowerProducts,decor:decorProducts,custom:subProducts}[r.section]||subProducts).push(p);allProducts.push(p);
+ });
+ removed.forEach(n=>{if(!allProducts.some(x=>x.name===n))delete cart[n]});
+ applyPriceAdjust(PRICE_PCT);renderProductAdmin();renderCustomProductsAdmin();
+}
+function renderCustomProductsAdmin(){
+ const root=document.getElementById("npList");
+ root.innerHTML=customRows.length?customRows.map(r=>`<div class="itemline" data-id="${esc(r.id)}" style="align-items:center;gap:8px"><span class="emoji">${esc(r.emoji||"🎁")}</span><span style="flex:1">${esc(r.name)}<br><small class="muted">${esc(SEC_LABEL[r.section]||r.section)} · ${money(r.price)}</small></span><button type="button" class="soft np-edit" style="padding:6px 9px;font-size:11px">Precio</button><button type="button" class="danger np-del" style="padding:6px 9px;font-size:11px">Eliminar</button></div>`).join(""):'<div class="empty">Aún no has agregado productos nuevos.</div>';
+}
+document.getElementById("npSection").addEventListener("change",e=>{document.getElementById("npDiscLabel").style.display=e.target.value==="custom"?"flex":"none"});
+document.getElementById("npAdd").onclick=async()=>{
+ const $=id=>document.getElementById(id),msg=$("npMsg"),btn=$("npAdd");
+ const name=$("npName").value.trim(),price=Number($("npPrice").value),section=$("npSection").value;
+ if(!db){msg.textContent="No hay conexión con Supabase.";return}
+ if(!name){msg.textContent="Escribe el nombre del producto.";return}
+ if(!$("npPrice").value.trim()||!isFinite(price)||price<0){msg.textContent="Escribe un precio válido.";return}
+ if(allProducts.some(x=>x.name.trim().toLowerCase()===name.toLowerCase())){msg.textContent="Ya existe un producto con ese nombre.";return}
+ const {data:{user}}=await db.auth.getUser();
+ if(String(user?.email||"").toLowerCase()!==ADMIN_EMAIL){msg.textContent="Tu cuenta no tiene permiso para agregar productos.";return}
+ btn.disabled=true;msg.textContent="Guardando...";
+ const {error}=await db.from("custom_products").insert({name,price,section,emoji:$("npEmoji").value.trim()||null,discount_eligible:section==="custom"&&$("npDisc").checked});
+ btn.disabled=false;
+ if(error){console.error("Producto nuevo:",error);msg.textContent="No se pudo guardar. Revisa que ejecutaste el SQL de productos nuevos en Supabase. "+error.message;return}
+ ["npName","npPrice","npEmoji"].forEach(id=>$(id).value="");$("npDisc").checked=false;
+ msg.textContent=`✅ «${name}» agregado en ${SEC_LABEL[section]}.`;await loadCustomProducts();
+};
+document.getElementById("npList").addEventListener("click",async e=>{
+ const row=e.target.closest("[data-id]"),r=row&&customRows.find(x=>x.id===row.dataset.id);if(!r)return;
+ const msg=document.getElementById("npMsg");
+ if(e.target.closest(".np-edit")){
+  const v=prompt(`Nuevo precio de «${r.name}» (COP):`,r.price);if(v===null)return;
+  const pr=Number(v);if(!v.trim()||!isFinite(pr)||pr<0){alert("Escribe un precio válido.");return}
+  const {error}=await db.from("custom_products").update({price:pr}).eq("id",r.id);
+  if(error){alert("No se pudo guardar el precio.");return}
+  msg.textContent=`✅ Precio de «${r.name}» actualizado.`;await loadCustomProducts();
+ }else if(e.target.closest(".np-del")){
+  if(!confirm(`¿Eliminar «${r.name}» de la tienda?`))return;
+  const {data,error}=await db.from("custom_products").delete().eq("id",r.id).select("id");
+  if(error||!data||!data.length){alert("No se pudo eliminar el producto.");return}
+  const k=key(r.name),old=productImages[k];
+  if(old){await db.from("product_images").delete().eq("product_key",k);await db.storage.from(GALLERY_BUCKET).remove([old])}
+  msg.textContent=`«${r.name}» eliminado.`;await loadProductImages();await loadCustomProducts();
+ }
+});
+/* ===== Idiomas (español, English, Português). El WhatsApp y el panel siguen en español. ===== */
+const LANGS={es:"Español",en:"English",pt:"Português"};
+let LANG="es";
+try{LANG=localStorage.getItem("rolitas_lang")||""}catch(e){}
+if(!LANGS[LANG]){const b=(navigator.language||"es").slice(0,2);LANG=LANGS[b]?b:"es"}
+const D={"en": {"Abrir calculadora →": "Open calculator →", "Acceso privado": "Private access", "Agrega productos para ver el tiempo mínimo de entrega.": "Add products to see the minimum delivery time.", "Aún no agregas productos.": "You haven't added any products yet.", "Aún no has subido imagen": "No image uploaded yet", "Bienvenida a ROLITAS": "Welcome to ROLITAS", "CREATIVE STUDIO · CREATIVIDAD EN CADA DETALLE": "CREATIVE STUDIO · CREATIVITY IN EVERY DETAIL", "Calculadora de flores 🌷": "Flower calculator 🌷", "Calculadora de sublimación 🎨": "Sublimation calculator 🎨", "Cantidad": "Quantity", "Catálogo y pedidos · Detalles personalizados, creados con amor.": "Catalog & orders · Custom details, made with love.", "Cerrar": "Close", "Comprar ahora": "Buy now", "Datos para tu pedido": "Your order details", "Decoraciones ✨": "Decorations ✨", "Descuentos": "Discounts", "Detalles o personalización": "Details or customization", "Dirección de entrega": "Delivery address", "Domicilio": "Home delivery", "El pedido se guardará en la tienda cuando la conexión esté configurada. WhatsApp se abrirá después de guardarlo.": "Your order will be saved in the store once the connection is set up. WhatsApp will open after it is saved.", "Elige las flores y decoraciones. Desde 10 flores obtienes 5% de descuento; desde 5 flores se incluyen mínimo 2 papeles coreanos.": "Choose your flowers and decorations. From 10 flowers you get 5% off; from 5 flowers at least 2 Korean papers are included.", "Elige qué quieres cotizar y entra a su calculadora.": "Choose what you want a quote for and open its calculator.", "Elige tus productos. Desde 6 pocillos y camisetas combinados obtienes 10% de descuento.": "Choose your products. From 6 mugs and T-shirts combined you get 10% off.", "Entrar a calculadora de flores": "Open flower calculator", "Entrar a calculadora de sublimación": "Open sublimation calculator", "Enviar pedido y abrir WhatsApp": "Send order & open WhatsApp", "Flores y decoraciones": "Flowers & decorations", "Flores 🌷": "Flowers 🌷", "Flores eternas y detalles personalizados que hemos creado.": "Eternal flowers and custom details we have created.", "Frase (opcional)": "Message (optional)", "Galería 🌸": "Gallery 🌸", "Hacer mi pedido →": "Place my order →", "Hacer pedido 🛍️": "Order now 🛍️", "Imagen para todos": "Image for all", "Los productos que agregues desde cualquiera de las calculadoras aparecerán aquí.": "Products you add from either calculator will appear here.", "Mensaje para la tarjeta 💌 (obligatorio)": "Card message 💌 (required)", "No, una distinta para cada uno": "No, a different one for each", "Nombre completo": "Full name", "Nuestros trabajos": "Our work", "Personalización 🎨": "Customization 🎨", "Pocillos, camisetas, llaveros y más": "Mugs, T-shirts, keychains and more", "ROLITAS CREATIVE STUDIO · Hecho con amor 💗": "ROLITAS CREATIVE STUDIO · Made with love 💗", "Recoger en el taller": "Pick up at the workshop", "SUBLIMACIÓN": "SUBLIMATION", "Sube la imagen de cada producto (mínimo una). La frase es opcional.": "Upload the image for each product (at least one). The message is optional.", "Sublimación": "Sublimation", "Sí, la misma para todos": "Yes, the same for all", "Todas las unidades": "All units", "Total productos": "Products total", "Tu carrito 🛍️": "Your cart 🛍️", "Tu idea, hecha realidad ✨": "Your idea, made real ✨", "Tu imagen": "Your image", "Tu pedido 🛍️": "Your order 🛍️", "Vaciar carrito": "Empty cart", "WhatsApp / teléfono": "WhatsApp / phone", "¿Misma imagen para todos?": "Same image for all?", "¿Para cuándo lo necesitas?": "When do you need it?", "¿Quieres cambiar algo? (color del papel coreano, etc.)": "Want to change something? (Korean paper color, etc.)", "¿Recoges o te lo enviamos?": "Pick up or delivery?", "← Volver": "← Back", "← Volver a categorías": "← Back to categories", "🌸 Al llevar 5 flores o más, se incluyen mínimo 2 papeles coreanos.": "🌸 With 5 or more flowers, at least 2 Korean papers are included.", "🌸 Al llevar 5 flores o más, se requieren mínimo 2 papeles coreanos. Ya están incluidos en tu pedido.": "🌸 With 5 or more flowers, at least 2 Korean papers are required. They are already included in your order.", "🛵 El domicilio no está incluido en el total. Lo pagas aparte y su valor depende del lugar de entrega y de lo que cobre el domicilio.": "🛵 Delivery is not included in the total. You pay it separately and its cost depends on the delivery location and what the courier charges.", "Barrio, dirección y ciudad": "Neighborhood, address and city", "Colores, frases, diseños, fecha especial...": "Colors, phrases, designs, special date...", "Ej: Feliz cumpleaños mamá": "E.g. Happy birthday mom", "Escribe la frase o mensaje exacto que irá en la tarjeta. Si llevas varias, escribe uno por cada tarjeta.": "Write the exact phrase or message for the card. If you order several, write one for each card.", "Opcional. Ej: papel coreano en color rosado": "Optional. E.g. Korean paper in pink", "Tu nombre": "Your name", "Tu número de contacto": "Your contact number", "Anterior": "Previous", "Siguiente": "Next", "Volver": "Back", "Pronto subiremos nuestros trabajos 🌸": "We'll share our work soon 🌸", "Cargando...": "Loading...", "Ver más trabajos": "See more work", "Cotizar por WhatsApp": "Quote via WhatsApp", "Galería no disponible por ahora.": "Gallery not available right now.", "Todo": "All", "Flores": "Flowers", "Otros": "Other", "Guardando pedido...": "Saving order...", "Subiendo imágenes...": "Uploading images...", "Quitar": "Remove", "Sube una imagen de máximo 10 MB.": "Upload an image of up to 10 MB.", "Por favor completa tu nombre y teléfono.": "Please enter your name and phone number.", "Agrega al menos un producto a tu pedido.": "Add at least one product to your order.", "Escribe el mensaje que irá en tu tarjeta 💌": "Write the message for your card 💌", "Indícanos para cuándo necesitas tu pedido.": "Tell us when you need your order.", "Escribe tu dirección de entrega.": "Enter your delivery address.", "No pudimos subir algunas imágenes. Envíalas por WhatsApp junto con tu pedido.": "We couldn't upload some images. Please send them via WhatsApp along with your order.", "ROLITAS Creative Studio | Catálogo y pedidos": "ROLITAS Creative Studio | Catalog & orders", "Amapola": "Poppy", "Azalea": "Azalea", "Camiseta estampada (cliente trae la camisa)": "Printed T-shirt (customer brings the shirt)", "Corona": "Crown", "Flor de Loto grande": "Large lotus flower", "Gerbera": "Gerbera", "Girasol XXL": "Sunflower XXL", "Girasol mini": "Mini sunflower", "Girasol pequeño": "Small sunflower", "Gorra estampada (cliente trae la gorra)": "Printed cap (customer brings the cap)", "Hibisco": "Hibiscus", "Hojas": "Leaves", "Hortencias": "Hydrangeas", "Lavanda": "Lavender", "Lirio": "Lily", "Lirio 6 pétalos": "Lily (6 petals)", "Lirio Araña": "Spider lily", "Llaveros pequeños (2 imágenes)": "Small keychains (2 images)", "Margarita": "Daisy", "Mariposas": "Butterflies", "Papel Koreano": "Korean paper", "Personajes Tulipán": "Tulip characters", "Pocillo blanco": "White mug", "Pocillo de colores": "Colorful mug", "Pocillo mágico": "Magic mug", "Pocillo negro escarchado": "Black glitter mug", "Pocillo transparente": "Transparent mug", "Rompecabezas": "Puzzle", "Rosa": "Rose", "Rosa mini": "Mini rose", "Tarjeta": "Card", "Tulipán abierto": "Open tulip", "Tulipán cerrado": "Closed tulip", "moño": "Bow", "PERSONALIZACIÓN": "CUSTOMIZATION", "Personalización": "Customization", "Pocillos, camisetas, gorras, llaveros, rompecabezas y más": "Mugs, T-shirts, caps, keychains, puzzles and more", "Calculadora de personalización 🎨": "Customization calculator 🎨", "Escribe un número celular colombiano válido de 10 dígitos.": "Enter a valid 10-digit Colombian mobile number.", "📍 Recogerás tu pedido en la dirección del taller.": "📍 You'll pick up your order at the workshop address.", "El taller aún no ha configurado su dirección. No es posible seleccionar recogida por ahora.": "The workshop hasn't set its address yet. Pickup is not available for now.", "El taller aún no ha configurado su dirección. Comunícate con la tienda para coordinar la recogida.": "The workshop hasn't set its address yet. Contact the store to arrange pickup.", "Dirección del taller": "Workshop address", "Copiar llave Bre-B": "Copy Bre-B key", "¡Llave copiada!": "Key copied!"}, "pt": {"Abrir calculadora →": "Abrir calculadora →", "Acceso privado": "Acesso privado", "Agrega productos para ver el tiempo mínimo de entrega.": "Adicione produtos para ver o prazo mínimo de entrega.", "Aún no agregas productos.": "Você ainda não adicionou produtos.", "Aún no has subido imagen": "Nenhuma imagem enviada ainda", "Bienvenida a ROLITAS": "Bem-vinda à ROLITAS", "CREATIVE STUDIO · CREATIVIDAD EN CADA DETALLE": "CREATIVE STUDIO · CRIATIVIDADE EM CADA DETALHE", "Calculadora de flores 🌷": "Calculadora de flores 🌷", "Calculadora de sublimación 🎨": "Calculadora de sublimação 🎨", "Cantidad": "Quantidade", "Catálogo y pedidos · Detalles personalizados, creados con amor.": "Catálogo e pedidos · Detalhes personalizados, feitos com amor.", "Cerrar": "Fechar", "Comprar ahora": "Comprar agora", "Datos para tu pedido": "Dados do seu pedido", "Decoraciones ✨": "Decorações ✨", "Descuentos": "Descontos", "Detalles o personalización": "Detalhes ou personalização", "Dirección de entrega": "Endereço de entrega", "Domicilio": "Entrega em domicílio", "El pedido se guardará en la tienda cuando la conexión esté configurada. WhatsApp se abrirá después de guardarlo.": "O pedido será salvo na loja quando a conexão estiver configurada. O WhatsApp abrirá depois de salvar.", "Elige las flores y decoraciones. Desde 10 flores obtienes 5% de descuento; desde 5 flores se incluyen mínimo 2 papeles coreanos.": "Escolha as flores e decorações. A partir de 10 flores você ganha 5% de desconto; a partir de 5 flores incluem-se no mínimo 2 papéis coreanos.", "Elige qué quieres cotizar y entra a su calculadora.": "Escolha o que deseja cotar e abra a calculadora.", "Elige tus productos. Desde 6 pocillos y camisetas combinados obtienes 10% de descuento.": "Escolha seus produtos. A partir de 6 canecas e camisetas combinadas você ganha 10% de desconto.", "Entrar a calculadora de flores": "Abrir calculadora de flores", "Entrar a calculadora de sublimación": "Abrir calculadora de sublimação", "Enviar pedido y abrir WhatsApp": "Enviar pedido e abrir WhatsApp", "Flores y decoraciones": "Flores e decorações", "Flores 🌷": "Flores 🌷", "Flores eternas y detalles personalizados que hemos creado.": "Flores eternas e detalhes personalizados que criamos.", "Frase (opcional)": "Frase (opcional)", "Galería 🌸": "Galeria 🌸", "Hacer mi pedido →": "Fazer meu pedido →", "Hacer pedido 🛍️": "Fazer pedido 🛍️", "Imagen para todos": "Imagem para todos", "Los productos que agregues desde cualquiera de las calculadoras aparecerán aquí.": "Os produtos que você adicionar em qualquer calculadora aparecerão aqui.", "Mensaje para la tarjeta 💌 (obligatorio)": "Mensagem para o cartão 💌 (obrigatório)", "No, una distinta para cada uno": "Não, uma diferente para cada um", "Nombre completo": "Nome completo", "Nuestros trabajos": "Nossos trabalhos", "Personalización 🎨": "Personalização 🎨", "Pocillos, camisetas, llaveros y más": "Canecas, camisetas, chaveiros e mais", "ROLITAS CREATIVE STUDIO · Hecho con amor 💗": "ROLITAS CREATIVE STUDIO · Feito com amor 💗", "Recoger en el taller": "Retirar na oficina", "SUBLIMACIÓN": "SUBLIMAÇÃO", "Sube la imagen de cada producto (mínimo una). La frase es opcional.": "Envie a imagem de cada produto (no mínimo uma). A frase é opcional.", "Sublimación": "Sublimação", "Sí, la misma para todos": "Sim, a mesma para todos", "Todas las unidades": "Todas as unidades", "Total productos": "Total dos produtos", "Tu carrito 🛍️": "Seu carrinho 🛍️", "Tu idea, hecha realidad ✨": "Sua ideia, tornada realidade ✨", "Tu imagen": "Sua imagem", "Tu pedido 🛍️": "Seu pedido 🛍️", "Vaciar carrito": "Esvaziar carrinho", "WhatsApp / teléfono": "WhatsApp / telefone", "¿Misma imagen para todos?": "Mesma imagem para todos?", "¿Para cuándo lo necesitas?": "Para quando você precisa?", "¿Quieres cambiar algo? (color del papel coreano, etc.)": "Quer mudar algo? (cor do papel coreano, etc.)", "¿Recoges o te lo enviamos?": "Retira ou enviamos?", "← Volver": "← Voltar", "← Volver a categorías": "← Voltar às categorias", "🌸 Al llevar 5 flores o más, se incluyen mínimo 2 papeles coreanos.": "🌸 Com 5 ou mais flores, incluem-se no mínimo 2 papéis coreanos.", "🌸 Al llevar 5 flores o más, se requieren mínimo 2 papeles coreanos. Ya están incluidos en tu pedido.": "🌸 Com 5 ou mais flores, são necessários no mínimo 2 papéis coreanos. Eles já estão incluídos no seu pedido.", "🛵 El domicilio no está incluido en el total. Lo pagas aparte y su valor depende del lugar de entrega y de lo que cobre el domicilio.": "🛵 A entrega não está incluída no total. Você paga à parte e o valor depende do local de entrega e do que o entregador cobrar.", "Barrio, dirección y ciudad": "Bairro, endereço e cidade", "Colores, frases, diseños, fecha especial...": "Cores, frases, designs, data especial...", "Ej: Feliz cumpleaños mamá": "Ex.: Feliz aniversário, mãe", "Escribe la frase o mensaje exacto que irá en la tarjeta. Si llevas varias, escribe uno por cada tarjeta.": "Escreva a frase ou mensagem exata do cartão. Se levar vários, escreva uma para cada cartão.", "Opcional. Ej: papel coreano en color rosado": "Opcional. Ex.: papel coreano rosa", "Tu nombre": "Seu nome", "Tu número de contacto": "Seu número de contato", "Anterior": "Anterior", "Siguiente": "Próximo", "Volver": "Voltar", "Pronto subiremos nuestros trabajos 🌸": "Em breve publicaremos nossos trabalhos 🌸", "Cargando...": "Carregando...", "Ver más trabajos": "Ver mais trabalhos", "Cotizar por WhatsApp": "Cotar pelo WhatsApp", "Galería no disponible por ahora.": "Galeria indisponível no momento.", "Todo": "Todos", "Flores": "Flores", "Otros": "Outros", "Guardando pedido...": "Salvando pedido...", "Subiendo imágenes...": "Enviando imagens...", "Quitar": "Remover", "Sube una imagen de máximo 10 MB.": "Envie uma imagem de até 10 MB.", "Por favor completa tu nombre y teléfono.": "Por favor, preencha seu nome e telefone.", "Agrega al menos un producto a tu pedido.": "Adicione pelo menos um produto ao seu pedido.", "Escribe el mensaje que irá en tu tarjeta 💌": "Escreva a mensagem do seu cartão 💌", "Indícanos para cuándo necesitas tu pedido.": "Informe para quando você precisa do pedido.", "Escribe tu dirección de entrega.": "Digite seu endereço de entrega.", "No pudimos subir algunas imágenes. Envíalas por WhatsApp junto con tu pedido.": "Não conseguimos enviar algumas imagens. Envie-as pelo WhatsApp junto com seu pedido.", "ROLITAS Creative Studio | Catálogo y pedidos": "ROLITAS Creative Studio | Catálogo e pedidos", "Amapola": "Papoula", "Azalea": "Azaleia", "Camiseta estampada (cliente trae la camisa)": "Camiseta estampada (cliente traz a camiseta)", "Corona": "Coroa", "Flor de Loto grande": "Flor de lótus grande", "Gerbera": "Gérbera", "Girasol XXL": "Girassol XXL", "Girasol mini": "Mini girassol", "Girasol pequeño": "Girassol pequeno", "Gorra estampada (cliente trae la gorra)": "Boné estampado (cliente traz o boné)", "Hibisco": "Hibisco", "Hojas": "Folhas", "Hortencias": "Hortênsias", "Lavanda": "Lavanda", "Lirio": "Lírio", "Lirio 6 pétalos": "Lírio (6 pétalas)", "Lirio Araña": "Lírio-aranha", "Llaveros pequeños (2 imágenes)": "Chaveiros pequenos (2 imagens)", "Margarita": "Margarida", "Mariposas": "Borboletas", "Papel Koreano": "Papel coreano", "Personajes Tulipán": "Personagens Tulipa", "Pocillo blanco": "Caneca branca", "Pocillo de colores": "Caneca colorida", "Pocillo mágico": "Caneca mágica", "Pocillo negro escarchado": "Caneca preta glitter", "Pocillo transparente": "Caneca transparente", "Rompecabezas": "Quebra-cabeça", "Rosa": "Rosa", "Rosa mini": "Mini rosa", "Tarjeta": "Cartão", "Tulipán abierto": "Tulipa aberta", "Tulipán cerrado": "Tulipa fechada", "moño": "Laço", "PERSONALIZACIÓN": "PERSONALIZAÇÃO", "Personalización": "Personalização", "Pocillos, camisetas, gorras, llaveros, rompecabezas y más": "Canecas, camisetas, bonés, chaveiros, quebra-cabeças e mais", "Calculadora de personalización 🎨": "Calculadora de personalização 🎨", "Escribe un número celular colombiano válido de 10 dígitos.": "Digite um número de celular colombiano válido de 10 dígitos.", "📍 Recogerás tu pedido en la dirección del taller.": "📍 Você retirará seu pedido no endereço da oficina.", "El taller aún no ha configurado su dirección. No es posible seleccionar recogida por ahora.": "A oficina ainda não configurou seu endereço. A retirada não está disponível por enquanto.", "El taller aún no ha configurado su dirección. Comunícate con la tienda para coordinar la recogida.": "A oficina ainda não configurou seu endereço. Entre em contato com a loja para combinar a retirada.", "Dirección del taller": "Endereço da oficina", "Copiar llave Bre-B": "Copiar chave Bre-B", "¡Llave copiada!": "Chave copiada!"}};
+const PAT=[
+ [/^(\d+) × (.+)$/,{en:"{1} × {2}",pt:"{1} × {2}"},[2]],
+ [/^Agregar (.+)$/,{en:"Add {1}",pt:"Adicionar {1}"},[1]],
+ [/^Quitar (.+)$/,{en:"Remove {1}",pt:"Remover {1}"},[1]],
+ [/^Listo en aprox\. (\d+) días?$/,{en:"Ready in approx. {1} days",pt:"Pronto em aprox. {1} dias"}],
+ [/^(.*)⏱ (\d+) días?$/,{en:"{1}⏱ {2} days",pt:"{1}⏱ {2} dias"}],
+ [/^Para este pedido necesitamos mínimo (\d+) días?\. Fecha más cercana: (.+)\.$/,{en:"This order needs at least {1} days. Earliest date: {2}.",pt:"Este pedido precisa de no mínimo {1} dias. Data mais próxima: {2}."}],
+ [/^Para este pedido necesitamos mínimo (\d+) días?\. Elige el (.+) o una fecha posterior\.$/,{en:"This order needs at least {1} days. Choose {2} or a later date.",pt:"Este pedido precisa de no mínimo {1} dias. Escolha {2} ou uma data posterior."}],
+ [/^💳 Para iniciar tu pedido se pide un abono del (\d+)%: (\$[\d.]+)\. Págalo por Bre-B a la llave (\S+) y envía el comprobante por WhatsApp\.$/,{en:"💳 To start your order we ask for a {1}% deposit: {2}. Pay it via Bre-B to the key {3} and send the receipt via WhatsApp.",pt:"💳 Para iniciar seu pedido pedimos um sinal de {1}%: {2}. Pague pelo Bre-B para a chave {3} e envie o comprovante pelo WhatsApp."}],
+ [/^Falta la imagen de personalización de (.+)\.$/,{en:"Missing the customization image for {1}.",pt:"Falta a imagem de personalização de {1}."},[1]],
+ [/^la unidad (\d+) de (.+)$/,{en:"unit {1} of {2}",pt:"a unidade {1} de {2}"},[2]],
+ [/^(.+) · imagen \(obligatoria\)$/,{en:"{1} · image (required)",pt:"{1} · imagem (obrigatória)"},[1]],
+ [/^Unidad (\d+)$/,{en:"Unit {1}",pt:"Unidade {1}"}],
+ [/^¡Pedido (.+) guardado! Confirma los detalles por WhatsApp\.$/,{en:"Order {1} saved! Confirm the details on WhatsApp.",pt:"Pedido {1} salvo! Confirme os detalhes pelo WhatsApp."}],
+ [/^No pudimos guardar el pedido en la tienda, pero se envía por WhatsApp para que no se pierda\.([\s\S]*)$/,{en:"We couldn't save the order in the store, but it is being sent via WhatsApp so it isn't lost.{1}",pt:"Não conseguimos salvar o pedido na loja, mas ele está sendo enviado pelo WhatsApp para não se perder.{1}"}],
+ [/^Cambios: ([\s\S]*)$/,{en:"Changes: {1}",pt:"Alterações: {1}"}],
+];
+function trStr(s){
+ if(LANG==="es"||!s)return s;
+ const d=D[LANG];if(d[s]!==undefined)return d[s];
+ for(const [re,tpl,sub] of PAT){
+  const m=s.match(re);if(!m||!tpl[LANG])continue;
+  return tpl[LANG].replace(/\{(\d)\}/g,(_,i)=>(sub||[]).includes(+i)?trStr(m[i]):m[i]).replace(/\b1 days\b/g,"1 day").replace(/\b1 dias\b/g,"1 dia");
+ }
+ return s;
+}
+const trWs=v=>{const m=v.match(/^(\s*)([\s\S]*?)(\s*)$/);return m[1]+trStr(m[2].replace(/\s+/g," "))+m[3]};
+const _alert=window.alert.bind(window);window.alert=m=>_alert(trStr(String(m)));
+const TR_SKIP="#adminView,script,style,noscript",TR_ATTRS=["placeholder","aria-label","alt","title"];
+function trText(n){
+ const p=n.parentElement;if(!p||p.closest(TR_SKIP))return;
+ const es=(n.__out!==undefined&&n.nodeValue===n.__out)?n.__es:n.nodeValue;
+ const out=trWs(es);n.__es=es;n.__out=out;if(out!==n.nodeValue)n.nodeValue=out;
+}
+function trAttrs(e){
+ if(e.closest(TR_SKIP))return;e.__ea=e.__ea||{};
+ TR_ATTRS.forEach(a=>{
+  const cur=e.getAttribute(a);if(cur===null||!cur.trim())return;
+  const o=e.__ea[a],es=(o&&o.out===cur)?o.es:cur,out=trWs(es);
+  e.__ea[a]={es,out};if(out!==cur)e.setAttribute(a,out);
+ });
+}
+function trWalk(root){
+ if(root.nodeType===3){trText(root);return}
+ if(root.nodeType!==1||root.closest(TR_SKIP))return;
+ trAttrs(root);root.querySelectorAll("*").forEach(trAttrs);
+ const w=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);let n;while(n=w.nextNode())trText(n);
+}
+const TITLE_ES=document.title;
+const trObs=new MutationObserver(ms=>{
+ if(LANG!=="es")for(const m of ms){
+  if(m.type==="childList")m.addedNodes.forEach(trWalk);
+  else if(m.type==="characterData")trText(m.target);
+  else if(m.type==="attributes")trAttrs(m.target);
+ }
+ trObs.takeRecords();
+});
+function setLang(l){
+ LANG=LANGS[l]?l:"es";
+ try{localStorage.setItem("rolitas_lang",LANG)}catch(e){}
+ document.documentElement.lang=LANG;document.title=trStr(TITLE_ES);
+ document.getElementById("langSel").value=LANG;
+ trWalk(document.body);trObs.takeRecords();
+}
+document.getElementById("langSel").addEventListener("change",e=>setLang(e.target.value));
+trObs.observe(document.body,{childList:true,subtree:true,characterData:true,attributes:true,attributeFilter:TR_ATTRS});
+renderCatalog();renderCart();loadWorkshopAddress().then(()=>syncDeliveryAddress());checkSession();loadGallery();loadProductImages();loadPriceAdjust();loadCustomProducts();checkAdminHash();
+setLang(LANG);
+</script>
+</body></html>
